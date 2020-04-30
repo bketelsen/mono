@@ -1,17 +1,18 @@
 = Go 1.7 
 :date: 2016/06/08 
 :draft: false 
-:excerpt: >-   Release day is always fun, and Go releases get me pretty excited.
-The 1.7   release is especially nice, so I'm going to mention some of my favorite   changes in this release.
 :slug: go-1-7 
+:description: Go 1.7 Release Details
 :image_url: /uploads/7f76746926974ba9bc44624c39ca9734.jpg   
 :image_credit: Go 1.7   
 :image_credit_url: '#' 
 
 
 Release day is always fun, and Go releases get me pretty excited.
+
+== Go 1.7
+
 The 1.7 release is especially nice, so I'm going to mention some of my favorite changes in this release.
-// more
 
 === IBM z System Support
 

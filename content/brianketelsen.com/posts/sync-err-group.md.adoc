@@ -1,7 +1,7 @@
 =  sync.ErrGroup 
 :date: 2016/09/19 
 :draft: false 
-:excerpt:  In this article for O'Reilly I explore the new sync.ErrGroup package.
+:description: Link to an article on O'Reilly
 :slug: sync-err-group 
 :image_url: /uploads/a3382a89193148168be4cf56b5cbc19f.jpg   
 :image_credit: sync.ErrGroup   
@@ -9,5 +9,7 @@
 
 
 In this article for O'Reilly I explore the new sync.ErrGroup package.
+
+== O'Reilly Article
 
 https://www.oreilly.com/learning/run-strikingly-fast-parallel-file-searches-in-go-with-sync-errgroup[Article] https://github.com/bketelsen/gogrep[Source Code]

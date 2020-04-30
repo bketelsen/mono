@@ -1,7 +1,8 @@
 = Arrested DevOps Appearance on Krustlet 
 :date: 2020/04/14 12:00:00
 :draft: false 
-:excerpt: >-   I had a great time on the Arrested DevOps podcast with Bridget Kromhout. Read more for the link to the show.
+:description: I had a great time on the Arrested DevOps podcast with Bridget Kromhout.
+:categories: Rust, Podcasts
 :slug: arrested-dev-ops-appearance-on-krustlet 
 :image_url: /uploads/02f8f223e6474aa69c1af7947004213b.png   
 :credit: Arrested DevOps Appearance on Krustlet   
@@ -12,5 +13,7 @@
 
 I had a great time on the Arrested DevOps podcast with Bridget Kromhout.
 We chatted along with Taylor Thomas of the Deis team about https://github.com/deislabs/krustlet[Krustlet].
+
+== Krustlet on Arrested DevOps
 
 You can https://www.arresteddevops.com/krustlet/[listen here] or find it in all the usual podcast places, like Spotify and iTunes.

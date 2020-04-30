@@ -1,19 +1,16 @@
 = VS Code Remote Development 
 :date: 2019/05/02 
 :draft: false 
-:excerpt: >   The https://code.visualstudio.com/[Visual Studio Code] team just   https://cda.ms/RN[announced] perhaps the most eagerly anticipated feature   yet.
 :slug: vs-code-remote-development 
 :image_url: /uploads/bcf0ca90ceed4fc1ae16fac7b13bbaa2.jpg   
 :image_credit: VS Code Remote Development   
 :image_credit_url: '#' 
+:description: Code anywhere
 
 
-The https://code.visualstudio.com/[Visual Studio Code] team just https://cda.ms/RN[announced] perhaps the most eagerly anticipated feature yet.
-Remote editing.
+The https://code.visualstudio.com/[Visual Studio Code] team just https://cda.ms/RN[announced] perhaps the most eagerly anticipated feature yet... Remote editing.
 
-https://www.twitch.tv/videos/419428954##[Twitch Stream - Mac to SSH] https://www.twitch.tv/videos/419800747[Twitch Stream - WSL & Containers]
-
-=== Remote Editing
+== Remote Editing
 
 An https://aka.ms/VSCodeRemoteExtensionPack[extension pack] was released today that consists of three related extensions to Code.
 

@@ -1,9 +1,7 @@
 = Open Source Appreciation 
 :date: 2015/05/11 
 :draft: false 
-:excerpt: >-   I've never been shy about sharing my love for Open Source.
-I love creating   things, and I love sharing them with others.
-One of my particular joys with   Open Source Software, however, is finding new projects that excite me.
+:description: Show your OSS maintainers some love!
 :slug: open-source-appreciation 
 :image_url: /uploads/a307fcab3b2f48629d37a429bbba05d3.jpg   
 :image_credit: Open Source Appreciation   
@@ -12,6 +10,8 @@ One of my particular joys with   Open Source Software, however, is finding new p
 I've never been shy about sharing my love for Open Source.
 I love creating things, and I love sharing them with others.
 One of my particular joys with Open Source Software, however, is finding new projects that excite me.
+
+== Show Your Appreciation
 
 I generally get excited about new OSS projects for two reasons:
 

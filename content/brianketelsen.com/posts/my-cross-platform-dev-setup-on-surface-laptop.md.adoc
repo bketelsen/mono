@@ -1,18 +1,16 @@
 = My Cross-Platform Dev Setup on Surface Laptop 
 :date: 2017/09/29 
 :draft: false 
-:excerpt: >-   I want to document a setup that I've found that works really well for me using   Windows 10 and https://blogs.msdn.microsoft.com/wsl/2016/04/22/windows-subsystem-for-linux-overview/[Windows Subsystem for   Linux]   for general development.
-Before we dive into any specifics, though, I want to   provide some background and explain my objectives which will help to frame the   decisions I've made and the trade-offs chosen to reach a more ideal   environment.
+:description: Cross platform development environment for my Surface Laptop
 :slug: my-cross-platform-dev-setup-on-surface-laptop 
 :image_url: /uploads/32f178dad7c94e5bb78194a83bd316db.png   
 :image_credit: My Cross-Platform Dev Setup on Surface Laptop   
 :image_credit_url: '#' 
 
-
 I want to document a setup that I've found that works really well for me using Windows 10 and https://blogs.msdn.microsoft.com/wsl/2016/04/22/windows-subsystem-for-linux-overview/[Windows Subsystem for Linux] for general development.
 Before we dive into any specifics, though, I want to provide some background and explain my objectives which will help to frame the decisions I've made and the trade-offs chosen to reach a more ideal environment.
 
-=== Objective
+== Objective
 
 My objective is to build a development environment that is comfortable for Open Source development with a target of mostly Linux servers.
 I develop primarily in https://golang.org[Go] but infrequently do some Javascript and HTML work too.

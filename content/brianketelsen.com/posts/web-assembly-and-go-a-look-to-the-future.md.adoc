@@ -1,11 +1,16 @@
 = Web Assembly and Go: A look to the future 
 :date: 2018/06/22 
 :draft: false 
-:excerpt: > It's no secret that I'm resistant to learning Javascript and frontend   development.
+:description:  Resistance is futile
 :slug: web-assembly-and-go-a-look-to-the-future 
 :image_url: /uploads/af6667687c5c4ace86bf242fdb3d1e8c.png   
 :image_credit: Web Assembly and Go: A look to the future   
 :image_credit_url: '#' 
+
+It's no secret that I'm resistant to learning Javascript and frontend   development.
+
+
+== Web Assembly 
 
 I learned HTML back before CSS was even a thing, and even   Javascript came long after I started doing web development.
 When I look at   modern web development I shudder;

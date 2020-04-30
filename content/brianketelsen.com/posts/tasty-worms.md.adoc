@@ -1,16 +1,16 @@
 = Tasty Worms 
 :date: 2015/12/05 
 :draft: false 
-:excerpt: >-   A coworker sent me a link to this recipe and I have to share it. It's the   tastiest looking sandworm ever.
 :slug: tasty-worms 
 :image_url: /uploads/15b96fc0d84a4c44b13ecb42d40ba1dc.jpg   
 :image_credit: Tasty Worms   
 :image_credit_url: '#' 
-
-'''
+:description: The spice must flow.
 
 A coworker sent me a link to this recipe and I have to share it.
 It's the tastiest looking sandworm ever.
+
+== Worm Recipe
 
 http://kitchenoverlord.com/2015/12/03/dune-week-spice-filled-sandworm/[Spice Filled Sandworm]
 

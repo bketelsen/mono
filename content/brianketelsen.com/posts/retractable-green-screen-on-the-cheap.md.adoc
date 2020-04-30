@@ -1,7 +1,7 @@
 = Retractable Green Screen On the Cheap 
 :date: 2018/10/06 
 :draft: false 
-:excerpt: >-   Quick post to write up how I built a retractable green screen mount on my wall   for not much money.
+:description: A low cost setup for a green screen
 :slug: retractable-green-screen-on-the-cheap 
 :image_url: /uploads/d44eca7292c345b9bdbf45055af291bf.jpeg   
 :image_credit: Retractable Green Screen On the Cheap   

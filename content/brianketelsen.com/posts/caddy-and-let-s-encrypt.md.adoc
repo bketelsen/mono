@@ -1,12 +1,15 @@
 = Caddy and Let's Encrypt 
 :date: 2015/11/11 
 :draft: false 
-:excerpt: >-   I spent all of 5 minutes configuring https://caddyserver.com[Caddy] to   automatically pull content from github, post-process it with   http://gohugo.io[hugo] and serve it up with fresh SSL/TLS certificates from   Let's Encrypt.
+:description: Free TLS certificates on a really smooth web server
 :slug: caddy-and-let-s-encrypt 
 :image_url: /uploads/27a382860fef4a198f01f5a6aba24d57.jpg   
 :image_credit: Caddy and Let's Encrypt   
 :image_credit_url: '#' 
 
+Caddy supports Let's Encrypt automatically
+
+== Caddy and LE
 
 I spent all of 5 minutes configuring https://caddyserver.com[Caddy] to automatically pull content from github, post-process it with http://gohugo.io[hugo] and serve it up with fresh SSL/TLS certificates from Let's Encrypt.
 

@@ -1,20 +1,17 @@
 = Azure DevOps CI Setup 
 :date: 2018/09/11 
 :draft: false 
-:excerpt: >-   Microsoft just announced a killer continuous integration setup for Github, and   I was really anxious to give it a try.
-
-This post documents my setup for an   https://github.com/gophersnacks/site[Elixir/Phoenix application] I'm   building with https://twitter.com/arschles[Aaron Schlesinger].
+:description: C/I Setup on Azure DevOps
 :slug: azure-dev-ops-ci-setup 
 :image_url: /uploads/6655acdb14ab4463939ddf47d92868d4.jpg   
 :image_credit: Azure DevOps CI Setup   
 :image_credit_url: '#' 
 
 
-
 Microsoft just announced a killer continuous integration setup for Github, and I was really anxious to give it a try.
 This post documents my setup for an https://github.com/gophersnacks/site[Elixir/Phoenix application] I'm building with https://twitter.com/arschles[Aaron Schlesinger].
 
-=== Set Up Azure Pipelines
+== Set Up Azure Pipelines
 
 Step one is to head to the https://github.com/marketplace/azure-pipelines[Github Marketplace] and install the Azure Pipelines service.
 

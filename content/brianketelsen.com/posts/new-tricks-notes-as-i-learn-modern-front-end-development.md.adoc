@@ -1,8 +1,7 @@
 = New Tricks - notes as I learn modern front-end development 
 :date: 2016/05/04 
 :draft: false 
-:excerpt: >-   I promised that I would document my progress learning frontend development.
-This isn't a book-length treatise on the subject, but I do have a few notes   about my progress.
+:description: Sometimes learning is hard.
 :slug: new-tricks-notes-as-i-learn-modern-front-end-development 
 :image_url: /uploads/864b0e1dbe2d4997a730e9b6e353b68a.jpg   
 :image_credit: New Tricks - notes as I learn modern front-end development   
@@ -11,7 +10,9 @@ This isn't a book-length treatise on the subject, but I do have a few notes   ab
 
 I promised https://brianketelsen.com/opensource/[here] that I would document my progress learning frontend development.
 This isn't a book-length treatise on the subject, but I do have a few notes about my progress.
-// more
+
+== Frontend Web Development 
+
 It's been a little overwhelming going from zero to having an idea about what I'm doing.
 Many other people have mentioned it, so I won't belabor the point -- the Javascript ecosystem is huge and confusing.
 Seriously.
