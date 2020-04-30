@@ -1,8 +1,8 @@
 {
-  "name": "docker_web_app",
+  "name": "monorepo",
   "version": "1.0.0",
-  "description": "Node.js on Docker",
-  "author": "First Last <first.last@example.com>",
+  "description": "Content Monorepo",
+  "author": "Brian Ketelsen <mail@bjk.fyi>",
   "main": "server.js",
   "private": true,
   "scripts": {

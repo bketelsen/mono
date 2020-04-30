@@ -1,0 +1,9 @@
+name = "short"
+type = "javascript"
+account_id = "ada37dcd6014ac51906845ec06d78079"
+workers_dev = true
+route = ""
+zone_id = ""
+kv-namespaces = [
+    { binding = "SHORT_KV", id = "cbac1be3269340748e00ae0d0948c153" }
+]

@@ -1,0 +1,10 @@
+name = "sapperadoc"
+type = "webpack"
+account_id = "ada37dcd6014ac51906845ec06d78079"
+workers_dev = true
+route = ""
+zone_id = ""
+
+[site]
+bucket = "__sapper__/export"
+entry-point = "workers-site"

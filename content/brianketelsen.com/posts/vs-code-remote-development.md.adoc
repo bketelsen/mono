@@ -1,0 +1,62 @@
+'''
+
+title: VS Code Remote Development date: '2019-05-02' draft: false excerpt: >   The https://code.visualstudio.com/[Visual Studio Code] team just   https://cda.ms/RN[announced] perhaps the most eagerly anticipated feature   yet.
+Remote editing.
+slug: vs-code-remote-development image:   url: /uploads/bcf0ca90ceed4fc1ae16fac7b13bbaa2.jpg   credit: VS Code Remote Development   credit_url: '#' publication:   id: 1   name: brian.dev   description: 'brian.dev '   base_url: 'https://brian.dev'   created_at: '2020-04-06T14:59:16.724Z'   updated_at: '2020-04-24T12:15:44.584Z'
+
+'''
+
+The https://code.visualstudio.com/[Visual Studio Code] team just https://cda.ms/RN[announced] perhaps the most eagerly anticipated feature yet.
+Remote editing.
+
+https://www.twitch.tv/videos/419428954##[Twitch Stream - Mac to SSH] https://www.twitch.tv/videos/419800747[Twitch Stream - WSL & Containers]
+
+=== Remote Editing
+
+An https://aka.ms/VSCodeRemoteExtensionPack[extension pack] was released today that consists of three related extensions to Code.
+
+* https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl[Remote - WSL]
+* https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers[Remote - Container]
+* https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh[Remote - SSH]
+
+These extensions enable development from a local VS Code instance against a remote environment.
+And they're a dream come true for me.
+
+Each of these extensions allows you to run VS Code on `some computer` but the code and tools are on `some other compute device`.
+
+==== Remote - WSL
+
+If you're a Windows user, you know the frustration of working on a project that expects to be developed in Linux.
+There are hacks and workarounds for using VS Code in Windows and keeping the development tools in WSL, but the https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl[remote-wsl] extension solves this problem officially.
+You use Code in Windows, but the dev tools and environment live in WSL.
+Talk about the best of both worlds!
+
+==== Remote - Container
+
+With the https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers[remote-containers] plugin, you add a Dockerfile and a configuration file to your project and VS Code will automatically prompt you to spin up the container as your development environment.
+It will mount your code inside the container, and run as if you are developing inside the target environment.
+
+This is the `perfect` way to ship a pre-configured development environment for an Open Source project, for example.
+I'm really excited to add this to several of my projects.
+
+==== Remote - SSH
+
+Of the three, I will probably use this one the most.
+In fact I'm using it to write this blog post.
+
+image::https://content.brian.dev/uploads/afdd188f9ccd4adda98409d7f01645b5.png[remote-ssh]
+
+The https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh[remote-ssh] extension uses an SSH client on the host to communicate with a remote computer.
+If you have a beefy development machine (either locally or in the cloud), this is the perfect way to keep your development experience stable no matter what computer you're sitting at.
+No more syncing unfinished code between machines for me.
+
+The extension even does port forwarding over your ssh connection.
+When you start your website or service, it will forward that port for you to the local machine.
+
+image::https://content.brian.dev/uploads/574d06da72da4c9892a9fc3d4f0543db.png[remote-menu]
+
+I've been using the preview version of these three extensions for a few weeks now, and I couldn't be happier with the setup.
+I've used them from a Mac, from a Chromebook with Crostini, from Linux, and from Windows.
+It works equally well across all platforms.
+
+Go forth and remotely develop!
