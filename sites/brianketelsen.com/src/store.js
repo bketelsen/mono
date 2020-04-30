@@ -84,6 +84,7 @@ class BlogStore {
             slug,
             keywords: metadata.keywords ? metadata.keywords.split(',').map(k => k.trim()) : undefined,
         };
+        post.lang = 'en';
         BlogStore.validate(post);
         return post;
     }

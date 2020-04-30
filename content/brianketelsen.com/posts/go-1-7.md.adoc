@@ -1,10 +1,13 @@
-'''
-
-title: Go 1.7 date: '2016-06-08' draft: false excerpt: >-   Release day is always fun, and Go releases get me pretty excited.
+= Go 1.7 
+:date: 2016/06/08 
+:draft: false 
+:excerpt: >-   Release day is always fun, and Go releases get me pretty excited.
 The 1.7   release is especially nice, so I'm going to mention some of my favorite   changes in this release.
-slug: go-1-7 image:   url: /uploads/7f76746926974ba9bc44624c39ca9734.jpg   credit: Go 1.7   credit_url: '#' publication:   id: 1   name: brian.dev   description: 'brian.dev '   base_url: 'https://brian.dev'   created_at: '2020-04-06T14:59:16.724Z'   updated_at: '2020-04-24T12:15:44.584Z'
+:slug: go-1-7 
+:image_url: /uploads/7f76746926974ba9bc44624c39ca9734.jpg   
+:image_credit: Go 1.7   
+:image_credit_url: '#' 
 
-'''
 
 Release day is always fun, and Go releases get me pretty excited.
 The 1.7 release is especially nice, so I'm going to mention some of my favorite changes in this release.

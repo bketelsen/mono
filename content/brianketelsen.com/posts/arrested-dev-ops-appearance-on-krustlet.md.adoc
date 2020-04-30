@@ -1,5 +1,5 @@
 = Arrested DevOps Appearance on Krustlet 
-:date: '2020-04-14' 
+:date: 2020/04/14 12:00:00
 :draft: false 
 :excerpt: >-   I had a great time on the Arrested DevOps podcast with Bridget Kromhout. Read more for the link to the show.
 :slug: arrested-dev-ops-appearance-on-krustlet 

@@ -1,12 +1,14 @@
-'''
+= Caddy and Let's Encrypt 
+:date: 2015/11/11 
+:draft: false 
+:excerpt: >-   I spent all of 5 minutes configuring https://caddyserver.com[Caddy] to   automatically pull content from github, post-process it with   http://gohugo.io[hugo] and serve it up with fresh SSL/TLS certificates from   Let's Encrypt.
+:slug: caddy-and-let-s-encrypt 
+:image_url: /uploads/27a382860fef4a198f01f5a6aba24d57.jpg   
+:image_credit: Caddy and Let's Encrypt   
+:image_credit_url: '#' 
 
-title: Caddy and Let's Encrypt date: '2015-11-11' draft: false excerpt: >-   I spent all of 5 minutes configuring https://caddyserver.com[Caddy] to   automatically pull content from github, post-process it with   http://gohugo.io[hugo] and serve it up with fresh SSL/TLS certificates from   Let's Encrypt.
-slug: caddy-and-let-s-encrypt image:   url: /uploads/27a382860fef4a198f01f5a6aba24d57.jpg   credit: Caddy and Let's Encrypt   credit_url: '#' publication:   id: 1   name: brian.dev   description: 'brian.dev '   base_url: 'https://brian.dev'   created_at: '2020-04-06T14:59:16.724Z'   updated_at: '2020-04-24T12:15:44.584Z'
-
-'''
 
 I spent all of 5 minutes configuring https://caddyserver.com[Caddy] to automatically pull content from github, post-process it with http://gohugo.io[hugo] and serve it up with fresh SSL/TLS certificates from Let's Encrypt.
-// more
 
 When you think about it, that's pretty damned amazing.
 Caddy already made web serving easy.

@@ -141,3 +141,8 @@ https://serverfault.com/questions/447028/non-interactive-git-clone-ssh-fingerpri
 
 https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-template-repository
 add .devcontainer and .vscode settings
+
+https://github.com/bketelsen/template-node
+
+== Codespaces
+https://devblogs.microsoft.com/visualstudio/introducing-visual-studio-codespaces/

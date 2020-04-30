@@ -1,10 +1,13 @@
-'''
-
-title: 'Career 2.0 - Go Training, Videos, Speaking' date: '2016-06-18' draft: false excerpt: >-   A week ago I decided to start a new journey.
+= Career 2.0 - Go Training, Videos, Speaking 
+:date: 2016/06/18 
+:draft: false 
+:excerpt: >-   A week ago I decided to start a new journey.
 While I truly enjoyed working   with Blake Mizerany and the team at http://backplane.io[backplane], I felt I   really had a passion for training and growing the Go community and I decided I   owe it to myself to pursue it.
-slug: career-2-0-go-training-videos-speaking image:   url: /uploads/433d649028bd472d857765023239ac55.jpg   credit: 'Career 2.0 - Go Training, Videos, Speaking'   credit_url: '#' publication:   id: 1   name: brian.dev   description: 'brian.dev '   base_url: 'https://brian.dev'   created_at: '2020-04-06T14:59:16.724Z'   updated_at: '2020-04-24T12:15:44.584Z'
+:slug: career-2-0-go-training-videos-speaking 
+:image:   url: /uploads/433d649028bd472d857765023239ac55.jpg   
+:credit: 'Career 2.0 - Go Training, Videos, Speaking'   
+:credit_url: '#' 
 
-'''
 
 A week ago I decided to start a new journey.
 While I truly enjoyed working with Blake Mizerany and the team at http://backplane.io[backplane], I felt I really had a passion for training and growing the Go community and I decided I owe it to myself to pursue it.
