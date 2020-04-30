@@ -9,7 +9,8 @@
 
     // Add the IDs of extensions you want installed when the container is created in the array below.
     "extensions": [
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "vscodevim.vim"
     ],
     
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
