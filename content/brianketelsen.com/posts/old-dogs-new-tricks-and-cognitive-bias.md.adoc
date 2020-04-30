@@ -1,11 +1,14 @@
-'''
-
-title: 'Old Dogs, New Tricks, and Cognitive Bias' date: '2016-06-13' draft: false excerpt: >-   For 15 or more years I have told myself that I can't do frontend web work.
+= Old Dogs, New Tricks, and Cognitive Bias 
+:date: 2016/06/13 
+:draft: false 
+:excerpt: >-   For 15 or more years I have told myself that I can't do frontend web work.
 I   remember seeing a presentation from a co-worker on CSS in 2003 or so, and   thinking it was just too complicated.
 I've always been the guy behind the   scenes building the services that power the web, but never the one spending   any time making them less ugly.
-slug: old-dogs-new-tricks-and-cognitive-bias image:   url: /uploads/4bf3e0a2fedc4f02afdd996aea3daf8f.jpg   credit: 'Old Dogs, New Tricks, and Cognitive Bias'   credit_url: '#' publication:   id: 1   name: brian.dev   description: 'brian.dev '   base_url: 'https://brian.dev'   created_at: '2020-04-06T14:59:16.724Z'   updated_at: '2020-04-24T12:15:44.584Z'
+:slug: old-dogs-new-tricks-and-cognitive-bias 
+:image_url: /uploads/4bf3e0a2fedc4f02afdd996aea3daf8f.jpg   
+:image_credit: 'Old Dogs, New Tricks, and Cognitive Bias'   
+:image_credit_url: '#' 
 
-'''
 
 For 15 or more years I have told myself that I can't do frontend web work.
 I remember seeing a presentation from a co-worker on CSS in 2003 or so, and thinking it was just too complicated.

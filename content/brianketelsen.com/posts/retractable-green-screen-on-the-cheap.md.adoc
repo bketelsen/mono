@@ -1,11 +1,16 @@
-'''
+= Retractable Green Screen On the Cheap 
+:date: 2018/10/06 
+:draft: false 
+:excerpt: >-   Quick post to write up how I built a retractable green screen mount on my wall   for not much money.
+:slug: retractable-green-screen-on-the-cheap 
+:image_url: /uploads/d44eca7292c345b9bdbf45055af291bf.jpeg   
+:image_credit: Retractable Green Screen On the Cheap   
+:image_credit_url: '#' 
 
-title: Retractable Green Screen On the Cheap date: '2018-10-06' draft: false excerpt: >-   Quick post to write up how I built a retractable green screen mount on my wall   for not much money.
-slug: retractable-green-screen-on-the-cheap image:   url: /uploads/d44eca7292c345b9bdbf45055af291bf.jpeg   credit: Retractable Green Screen On the Cheap   credit_url: '#' publication:   id: 1   name: brian.dev   description: 'brian.dev '   base_url: 'https://brian.dev'   created_at: '2020-04-06T14:59:16.724Z'   updated_at: '2020-04-24T12:15:44.584Z'
-
-'''
 
 Quick post to write up how I built a retractable green screen mount on my wall for not much money.
+
+== Details
 
 I bought a mounting bracket https://www.amazon.com/gp/product/B002P32990/ref=oh_aui_detailpage_o02_s01?ie=UTF8&psc=1[from Amazon] that was intended for paper photograph backrounds like this.
 I didn't want paper, I wanted muslin for it's superior light disbursement and durability.

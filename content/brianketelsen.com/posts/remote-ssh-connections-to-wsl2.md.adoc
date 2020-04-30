@@ -1,10 +1,13 @@
-'''
+= Remote SSH Connections to WSL2 
+:date: 2020/03/03 
+:draft: false 
+:excerpt: >-   In this article I share my learnings on remotely accessing your Windows 10   computer.
+:slug: remote-ssh-connections-to-wsl2 
+:image_url: /uploads/d98ef5c6cff646dcb140dae212aacbba.jpg   
+:image_credit: Remote SSH Connections to WSL2   
+:image_credit_url: '#' 
 
-title: Remote SSH Connections to WSL2 date: '2020-03-03' draft: false excerpt: >-   In this article I share my learnings on remotely accessing your Windows 10   computer.
 My motivation was to determine efficient ways to access both the   Windows environment, and the WSL2 development environment from another   computer.
-slug: remote-ssh-connections-to-wsl2 image:   url: /uploads/d98ef5c6cff646dcb140dae212aacbba.jpg   credit: Remote SSH Connections to WSL2   credit_url: '#' publication:   id: 1   name: brian.dev   description: 'brian.dev '   base_url: 'https://brian.dev'   created_at: '2020-04-06T14:59:16.724Z'   updated_at: '2020-04-24T12:15:44.584Z'
-
-'''
 
 == Remote Access for New Windows Users
 

@@ -1,11 +1,13 @@
-'''
-
-title: Open Source Appreciation date: '2015-05-11' draft: false excerpt: >-   I've never been shy about sharing my love for Open Source.
+= Open Source Appreciation 
+:date: 2015/05/11 
+:draft: false 
+:excerpt: >-   I've never been shy about sharing my love for Open Source.
 I love creating   things, and I love sharing them with others.
 One of my particular joys with   Open Source Software, however, is finding new projects that excite me.
-slug: open-source-appreciation image:   url: /uploads/a307fcab3b2f48629d37a429bbba05d3.jpg   credit: Open Source Appreciation   credit_url: '#' publication:   id: 1   name: brian.dev   description: 'brian.dev '   base_url: 'https://brian.dev'   created_at: '2020-04-06T14:59:16.724Z'   updated_at: '2020-04-24T12:15:44.584Z'
-
-'''
+:slug: open-source-appreciation 
+:image_url: /uploads/a307fcab3b2f48629d37a429bbba05d3.jpg   
+:image_credit: Open Source Appreciation   
+:image_credit_url: '#' 
 
 I've never been shy about sharing my love for Open Source.
 I love creating things, and I love sharing them with others.

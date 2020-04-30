@@ -1,8 +1,11 @@
-'''
-
-title: Tasty Worms date: '2015-12-05' draft: false excerpt: >-   A coworker sent me a link to this recipe and I have to share it.
-It's the   tastiest looking sandworm ever.
-slug: tasty-worms image:   url: /uploads/15b96fc0d84a4c44b13ecb42d40ba1dc.jpg   credit: Tasty Worms   credit_url: '#' publication:   id: 1   name: brian.dev   description: 'brian.dev '   base_url: 'https://brian.dev'   created_at: '2020-04-06T14:59:16.724Z'   updated_at: '2020-04-24T12:15:44.584Z'
+= Tasty Worms 
+:date: 2015/12/05 
+:draft: false 
+:excerpt: >-   A coworker sent me a link to this recipe and I have to share it. It's the   tastiest looking sandworm ever.
+:slug: tasty-worms 
+:image_url: /uploads/15b96fc0d84a4c44b13ecb42d40ba1dc.jpg   
+:image_credit: Tasty Worms   
+:image_credit_url: '#' 
 
 '''
 

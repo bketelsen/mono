@@ -1,10 +1,13 @@
-'''
-
-title: My Cross-Platform Dev Setup on Surface Laptop date: '2017-09-29' draft: false excerpt: >-   I want to document a setup that I've found that works really well for me using   Windows 10 and https://blogs.msdn.microsoft.com/wsl/2016/04/22/windows-subsystem-for-linux-overview/[Windows Subsystem for   Linux]   for general development.
+= My Cross-Platform Dev Setup on Surface Laptop 
+:date: 2017/09/29 
+:draft: false 
+:excerpt: >-   I want to document a setup that I've found that works really well for me using   Windows 10 and https://blogs.msdn.microsoft.com/wsl/2016/04/22/windows-subsystem-for-linux-overview/[Windows Subsystem for   Linux]   for general development.
 Before we dive into any specifics, though, I want to   provide some background and explain my objectives which will help to frame the   decisions I've made and the trade-offs chosen to reach a more ideal   environment.
-slug: my-cross-platform-dev-setup-on-surface-laptop image:   url: /uploads/32f178dad7c94e5bb78194a83bd316db.png   credit: My Cross-Platform Dev Setup on Surface Laptop   credit_url: '#' publication:   id: 1   name: brian.dev   description: 'brian.dev '   base_url: 'https://brian.dev'   created_at: '2020-04-06T14:59:16.724Z'   updated_at: '2020-04-24T12:15:44.584Z'
+:slug: my-cross-platform-dev-setup-on-surface-laptop 
+:image_url: /uploads/32f178dad7c94e5bb78194a83bd316db.png   
+:image_credit: My Cross-Platform Dev Setup on Surface Laptop   
+:image_credit_url: '#' 
 
-'''
 
 I want to document a setup that I've found that works really well for me using Windows 10 and https://blogs.msdn.microsoft.com/wsl/2016/04/22/windows-subsystem-for-linux-overview/[Windows Subsystem for Linux] for general development.
 Before we dive into any specifics, though, I want to provide some background and explain my objectives which will help to frame the decisions I've made and the trade-offs chosen to reach a more ideal environment.

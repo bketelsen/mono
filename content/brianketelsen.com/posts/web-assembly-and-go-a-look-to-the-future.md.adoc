@@ -1,15 +1,18 @@
-'''
+= Web Assembly and Go: A look to the future 
+:date: 2018/06/22 
+:draft: false 
+:excerpt: > It's no secret that I'm resistant to learning Javascript and frontend   development.
+:slug: web-assembly-and-go-a-look-to-the-future 
+:image_url: /uploads/af6667687c5c4ace86bf242fdb3d1e8c.png   
+:image_credit: Web Assembly and Go: A look to the future   
+:image_credit_url: '#' 
 
-title: 'Web Assembly and Go: A look to the future' date: '2018-06-22' draft: false excerpt: >
-
-It's no secret that I'm resistant to learning Javascript and frontend   development.
 I learned HTML back before CSS was even a thing, and even   Javascript came long after I started doing web development.
 When I look at   modern web development I shudder;
 the ecosystem is so confusing for someone   who has been out of touch as long as I have.
 Node, webpack, yarn, npm,   frameworks, UMD, AMD, arghhh!
-slug: web-assembly-and-go-a-look-to-the-future image:   url: /uploads/af6667687c5c4ace86bf242fdb3d1e8c.png   credit: 'Web Assembly and Go: A look to the future'   credit_url: '#' publication:   id: 1   name: brian.dev   description: 'brian.dev '   base_url: 'https://brian.dev'   created_at: '2020-04-06T14:59:16.724Z'   updated_at: '2020-04-24T12:15:44.584Z'
 
-'''
+== Story 
 
 It's no secret that I'm resistant to learning Javascript and frontend development.
 I learned HTML back before CSS was even a thing, and even Javascript came long after I started doing web development.

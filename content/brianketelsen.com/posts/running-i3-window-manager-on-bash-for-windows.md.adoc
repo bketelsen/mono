@@ -1,7 +1,11 @@
-'''
-
-title: Running i3 Window Manager on Bash For Windows date: '2016-07-03' draft: false excerpt: >-   That might be the longest title for a blog post ever, but it's kind of hard to   describe what's going on here if you're not familiar with the latest updates   from Microsoft land.
-+ slug: running-i3-window-manager-on-bash-for-windows image:   url: /uploads/73e40d8764b54ec99bd1292eb59bdc4b.png   credit: Running i3 Window Manager on Bash For Windows   credit_url: '#' publication:   id: 1   name: brian.dev   description: 'brian.dev '   base_url: 'https://brian.dev'   created_at: '2020-04-06T14:59:16.724Z'   updated_at: '2020-04-24T12:15:44.584Z'
+= Running i3 Window Manager on Bash For Windows 
+:date: 2016/07/03 
+:draft: false 
+:excerpt: >-   That might be the longest title for a blog post ever, but it's kind of hard to   describe what's going on here if you're not familiar with the latest updates   from Microsoft land.
+:slug: running-i3-window-manager-on-bash-for-windows 
+:image_url: /uploads/73e40d8764b54ec99bd1292eb59bdc4b.png   
+:image_credit: Running i3 Window Manager on Bash For Windows   
+:image_credit_url: '#' 
 
 '''
 

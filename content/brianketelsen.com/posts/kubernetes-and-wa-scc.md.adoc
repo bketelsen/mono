@@ -1,10 +1,13 @@
-'''
-
-title: Kubernetes and waSCC date: '2020-04-09' draft: false excerpt: >-   Youtube video of a waSCC actor running on Krustlet.
+= Kubernetes and waSCC 
+:date: 2020/04/09 
+:draft: false 
+:excerpt: >-   Youtube video of a waSCC actor running on Krustlet.
 Web Assembly on   Kubernetes!
-slug: kubernetes-and-wa-scc image:   url: /uploads/0b4909688ebb43b7a8b09ef23f9c4e7e.png   credit: Kubernetes and waSCC   credit_url: '#' publication:   id: 1   name: brian.dev   description: 'brian.dev '   base_url: 'https://brian.dev'   created_at: '2020-04-06T14:59:16.724Z'   updated_at: '2020-04-24T12:15:44.584Z'
+:slug: kubernetes-and-wa-scc 
+:image_url: /uploads/0b4909688ebb43b7a8b09ef23f9c4e7e.png   
+:image_credit: Kubernetes and waSCC   
+:image_credit_url: '#' 
 
-'''
 
 Earlier this week, https://deislabs.io/posts/introducing-krustlet/[the Deis Labs team announced Krustlet], a Kubernetes kubelet implementation written in Rust that executes Web Assembly.
 

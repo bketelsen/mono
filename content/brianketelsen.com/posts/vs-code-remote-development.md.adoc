@@ -1,10 +1,12 @@
-'''
+= VS Code Remote Development 
+:date: 2019/05/02 
+:draft: false 
+:excerpt: >   The https://code.visualstudio.com/[Visual Studio Code] team just   https://cda.ms/RN[announced] perhaps the most eagerly anticipated feature   yet.
+:slug: vs-code-remote-development 
+:image_url: /uploads/bcf0ca90ceed4fc1ae16fac7b13bbaa2.jpg   
+:image_credit: VS Code Remote Development   
+:image_credit_url: '#' 
 
-title: VS Code Remote Development date: '2019-05-02' draft: false excerpt: >   The https://code.visualstudio.com/[Visual Studio Code] team just   https://cda.ms/RN[announced] perhaps the most eagerly anticipated feature   yet.
-Remote editing.
-slug: vs-code-remote-development image:   url: /uploads/bcf0ca90ceed4fc1ae16fac7b13bbaa2.jpg   credit: VS Code Remote Development   credit_url: '#' publication:   id: 1   name: brian.dev   description: 'brian.dev '   base_url: 'https://brian.dev'   created_at: '2020-04-06T14:59:16.724Z'   updated_at: '2020-04-24T12:15:44.584Z'
-
-'''
 
 The https://code.visualstudio.com/[Visual Studio Code] team just https://cda.ms/RN[announced] perhaps the most eagerly anticipated feature yet.
 Remote editing.
