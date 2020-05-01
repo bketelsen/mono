@@ -20,11 +20,7 @@ jobs:
         node-version: 12
     - run: cd sites/brianketelsen.com && yarn
     - run: cd sites/brianketelsen.com && yarn export
-  deploy:
-    runs-on: ubuntu-latest
-    name: Deploy to Cloudflare
-    steps:
-      - uses: cloudflare/wrangler-action@1.1.0
-        with:
-          apiToken: ${{ secrets.CF_API_TOKEN }}
-          workingDirectory: sites/brianketelsen.com
+    - uses: cloudflare/wrangler-action@1.1.0
+      with:
+        apiToken: ${{ secrets.CF_API_TOKEN }}
+        workingDirectory: sites/brianketelsen.com
