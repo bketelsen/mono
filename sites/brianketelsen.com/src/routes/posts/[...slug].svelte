@@ -23,6 +23,8 @@
   import { getIsoDateStr } from "../../services/dates";
   import Share from "../../components/Share.svelte";
 
+  import HeaderImage from "../../components/HeaderImage.svelte";
+
   // TODO remove workaround for this issue https://github.com/sveltejs/sapper/issues/904
   onMount(async () => {
     [...document.querySelectorAll('a[href^="#"]')].map(
@@ -229,6 +231,7 @@
   </noscript>
 </svelte:head>
 
+<HeaderImage image={post.image} image_credit={post.image_credit} />
 <header>
   <h1>{post.title}
     <span class='share'>
