@@ -4,4 +4,6 @@
 
 <h1>About me</h1>
 
-<p>I am Software Engineer, my career has been mainly focused on developing distributed systems although it hasn't been focused in a specific technology. I think it is more important to choose the right technology for each use case.</p>
+<p>Howdy!</p>
+
+<p>I'm a father of three, living in Tampa Florida, and working at Microsoft as a Cloud Advocate.</p>
