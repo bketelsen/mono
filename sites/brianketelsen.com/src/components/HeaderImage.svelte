@@ -23,6 +23,6 @@ $: image_source = 'https://content.brian.dev' + image_url;
 <div class="headerimage">
   <p id="my-image">
     <img
-      src={image_source} alt={image_credit} />
+      src={image_source} alt={image_credit + image_credit_url} />
   </p>
 </div>
