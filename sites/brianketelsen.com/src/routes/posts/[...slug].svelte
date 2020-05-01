@@ -251,7 +251,9 @@
   </noscript>
 </svelte:head>
 
+{#if post.image_url}
 <HeaderImage image_url={post.image_url} image_credit={post.image_credit} />
+{/if}
 <header>
   <h1>{post.title}
     <span class='share'>
