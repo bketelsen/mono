@@ -21,6 +21,8 @@ jobs:
     - run: cd sites/brianketelsen.com && yarn
     - run: cd sites/brianketelsen.com && yarn export
   deploy:
+    runs-on: ubuntu-latest
+    name: Deploy to Cloudflare
     steps:
       - uses: cloudflare/wrangler-action@1.1.0
         with:
