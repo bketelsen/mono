@@ -1,6 +1,7 @@
 = Web Assembly and Go: A look to the future 
 :date: 2018/06/22 
 :draft: false 
+:keywords: WASM, Go, Web
 :description:  Resistance is futile
 :slug: web-assembly-and-go-a-look-to-the-future 
 :image_url: /uploads/af6667687c5c4ace86bf242fdb3d1e8c.png   

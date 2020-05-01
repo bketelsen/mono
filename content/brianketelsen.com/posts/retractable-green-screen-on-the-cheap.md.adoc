@@ -1,6 +1,7 @@
 = Retractable Green Screen On the Cheap 
 :date: 2018/10/06 
 :draft: false 
+:keywords: Hacks, Video
 :description: A low cost setup for a green screen
 :slug: retractable-green-screen-on-the-cheap 
 :image_url: /uploads/d44eca7292c345b9bdbf45055af291bf.jpeg   

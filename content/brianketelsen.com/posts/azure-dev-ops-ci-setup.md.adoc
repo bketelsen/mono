@@ -1,6 +1,7 @@
 = Azure DevOps CI Setup 
 :date: 2018/09/11 
 :draft: false 
+:keywords: CI/CD, Azure
 :description: C/I Setup on Azure DevOps
 :slug: azure-dev-ops-ci-setup 
 :image_url: /uploads/6655acdb14ab4463939ddf47d92868d4.jpg   

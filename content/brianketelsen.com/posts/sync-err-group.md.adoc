@@ -1,6 +1,7 @@
 =  sync.ErrGroup 
 :date: 2016/09/19 
 :draft: false 
+:keywords: Go
 :description: Link to an article on O'Reilly
 :slug: sync-err-group 
 :image_url: /uploads/a3382a89193148168be4cf56b5cbc19f.jpg   

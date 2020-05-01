@@ -1,6 +1,7 @@
 = Windows for Open Source Development 
 :date: 2020/02/24 
 :draft: false 
+:keywords: Windows, Open Source
 :description: This isn't the Windows you thought you knew.
 :slug: windows-for-open-source-development 
 :image_url: /uploads/dcfd43df952b4874ace2f154c45cc82f.jpg   

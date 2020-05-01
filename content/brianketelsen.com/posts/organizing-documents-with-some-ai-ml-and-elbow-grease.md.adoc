@@ -1,6 +1,7 @@
 = Organizing Documents with Some AI, ML, and Elbow Grease 
 :date: 2019/09/03 
 :draft: false 
+:keywords: AI/ML
 :description: Use machine learning to organize your documents
 :slug: organizing-documents-with-some-ai-ml-and-elbow-grease 
 :image_url: /uploads/ef1b9bd086524852a2b77e2dd61be021.jpg   

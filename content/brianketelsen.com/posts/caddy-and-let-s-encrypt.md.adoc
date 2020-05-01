@@ -1,6 +1,7 @@
 = Caddy and Let's Encrypt 
 :date: 2015/11/11 
 :draft: false 
+:keywords: Open Source
 :description: Free TLS certificates on a really smooth web server
 :slug: caddy-and-let-s-encrypt 
 :image_url: /uploads/27a382860fef4a198f01f5a6aba24d57.jpg   

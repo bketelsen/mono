@@ -1,6 +1,7 @@
 = Open Source Appreciation 
 :date: 2015/05/11 
 :draft: false 
+:keywords: Open Source
 :description: Show your OSS maintainers some love!
 :slug: open-source-appreciation 
 :image_url: /uploads/a307fcab3b2f48629d37a429bbba05d3.jpg   

@@ -1,6 +1,7 @@
 = Going Overboard with WSL Metadata 
 :date: 2018/03/10 
 :draft: false 
+:keywords: WSL
 :description: I go too deep into WSL, and have fun doing it.
 :slug: going-overboard-with-wsl-metadata 
 :image_url: /uploads/78ecc62784e840cea188a734caae4cc7.PNG   

@@ -1,6 +1,7 @@
 = Kubernetes and waSCC 
 :date: 2020/04/09 
 :draft: false 
+:keywords: WASM, Rust
 :description: I recorded a video of creating a waSCC actor which compiles to WASM and runs on Kubernetes.
 :slug: kubernetes-and-wa-scc 
 :image_url: /uploads/0b4909688ebb43b7a8b09ef23f9c4e7e.png   

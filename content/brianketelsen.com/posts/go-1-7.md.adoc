@@ -2,6 +2,7 @@
 :date: 2016/06/08 
 :draft: false 
 :slug: go-1-7 
+:keywords: Go
 :description: Go 1.7 Release Details
 :image_url: /uploads/7f76746926974ba9bc44624c39ca9734.jpg   
 :image_credit: Go 1.7   

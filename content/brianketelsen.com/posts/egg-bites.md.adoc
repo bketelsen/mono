@@ -1,6 +1,7 @@
 = Egg Bites 
 :date: 2019/09/13
 :draft: false 
+:keywords: Recipes
 :description: This recipe replicates the Egg Bites that I love from Starbucks.
 :slug: egg-bites 
 :image_url: /uploads/b90d805ebf904dd09ff2116f5341820c.jpeg   

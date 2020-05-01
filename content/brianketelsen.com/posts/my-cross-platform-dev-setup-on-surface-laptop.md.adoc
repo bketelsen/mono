@@ -1,6 +1,7 @@
 = My Cross-Platform Dev Setup on Surface Laptop 
 :date: 2017/09/29 
 :draft: false 
+:keywords: WSL
 :description: Cross platform development environment for my Surface Laptop
 :slug: my-cross-platform-dev-setup-on-surface-laptop 
 :image_url: /uploads/32f178dad7c94e5bb78194a83bd316db.png   

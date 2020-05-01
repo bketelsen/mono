@@ -2,6 +2,7 @@
 :date: 2019/10/09 
 :draft: false 
 :slug: byobu-on-wsl 
+:keywords: WSL, Terminal
 :description: Using Byobu on WSL
 :image_url: /uploads/9e06273c9ca041cabe7c91d3c1e56698.jpg   
 :credit: Byobu on WSL   

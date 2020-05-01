@@ -2,7 +2,7 @@
 :date: 2020/04/14 12:00:00
 :draft: false 
 :description: I had a great time on the Arrested DevOps podcast with Bridget Kromhout.
-:categories: Rust, Podcasts
+:keywords: Rust, Podcasts
 :slug: arrested-dev-ops-appearance-on-krustlet 
 :image_url: /uploads/02f8f223e6474aa69c1af7947004213b.png   
 :credit: Arrested DevOps Appearance on Krustlet   

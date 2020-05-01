@@ -1,6 +1,7 @@
 = Remote SSH Connections to WSL2 
 :date: 2020/03/03 
 :draft: false 
+:keywords: WSL, SSH
 :description: Connect to your WSL2 instance from another machine.
 :slug: remote-ssh-connections-to-wsl2 
 :image_url: /uploads/d98ef5c6cff646dcb140dae212aacbba.jpg   

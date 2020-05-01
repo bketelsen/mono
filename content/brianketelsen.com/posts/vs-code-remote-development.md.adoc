@@ -1,6 +1,7 @@
 = VS Code Remote Development 
 :date: 2019/05/02 
 :draft: false 
+:keywords: Development
 :slug: vs-code-remote-development 
 :image_url: /uploads/bcf0ca90ceed4fc1ae16fac7b13bbaa2.jpg   
 :image_credit: VS Code Remote Development   

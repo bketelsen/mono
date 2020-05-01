@@ -1,6 +1,7 @@
 = Running i3 Window Manager on Bash For Windows 
 :date: 2016/07/03 
 :draft: false 
+:keywords: WSL, Windows, i3
 :description:  Running i3 on WSL
 :slug: running-i3-window-manager-on-bash-for-windows 
 :image_url: /uploads/73e40d8764b54ec99bd1292eb59bdc4b.png   
