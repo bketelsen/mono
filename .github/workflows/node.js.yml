@@ -22,7 +22,8 @@ jobs:
     - run: cd sites/brianketelsen.com && yarn export
   deploy:
     steps:
-      uses: cloudflare/wrangler-action@1.1.0
+    - uses: cloudflare/wrangler-action@1.1.0
+    - name: Publish to Cloudflare
       with:
         apiToken: ${{ secrets.CF_API_TOKEN }}
         workingDirectory: 'sites/brianketelsen.com'
