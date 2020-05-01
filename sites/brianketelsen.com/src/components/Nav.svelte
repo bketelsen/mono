@@ -61,6 +61,7 @@
 	<button on:click={toggle}>≡</button>
 	<ul class={open ? 'open' : 'closed'}>
 		<NavEntry href='.' segment={segment}>{siteName}</NavEntry>
+		<NavEntry href='blog' segment={segment}>Blog</NavEntry>
 		<NavEntry href='categories' segment={segment}>Categories</NavEntry>
 		<NavEntry href='about' segment={segment}>About</NavEntry>
 	</ul>
