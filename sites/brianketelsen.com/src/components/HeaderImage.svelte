@@ -1,9 +1,9 @@
 <script>
-  export let image;
+  export let image_url;
   export let image_credit;
   export let image_credit_url;
 
-$: image_source = 'https://content.brian.dev' + image;
+$: image_source = 'https://content.brian.dev' + image_url;
 
 </script>
 

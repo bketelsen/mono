@@ -210,6 +210,20 @@
   .content :global(.toc) {
     font-size: 1.2em;
   }
+  .content :global(span.image){
+    width: auto;
+    text-align: center;
+    padding: 0.5em;
+  }
+
+  .content :global(span.image img){
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 0.5em;
+  }
+
+
 </style>
 
 <svelte:head>
@@ -231,7 +245,7 @@
   </noscript>
 </svelte:head>
 
-<HeaderImage image={post.image} image_credit={post.image_credit} />
+<HeaderImage image_url={post.image_url} image_credit={post.image_credit} />
 <header>
   <h1>{post.title}
     <span class='share'>

@@ -34,7 +34,10 @@ Another preference that is important here: I really dislike local VM's for devel
 They get lost, they aren't sharable, file sharing between host and VM is flaky.
 I just can't use a local VM for development work.
 
-=== The TL;DR+++<iframe width="560" height="315" src="https://www.youtube.com/embed/_y2e4QaUktQ" frameborder="0" allowfullscreen="allowfullscreen">++++++</iframe>+++
+=== The TL;DR
+
++++<iframe width="560" height="315" src="https://www.youtube.com/embed/_y2e4QaUktQ" frameborder="0" allowfullscreen="allowfullscreen">++++++</iframe>+++
+
 
 === The Setup
 
