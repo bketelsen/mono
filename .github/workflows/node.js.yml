@@ -22,4 +22,4 @@ jobs:
       with:
         node-version: 12
     - run: cd sites/brianketelsen.com && yarn
-    - run: yarn export
+    - run: cd sites/brianketelsen.com && yarn export
