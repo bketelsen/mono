@@ -15,7 +15,7 @@ jobs:
     - name: Build AsciiDoc step
       id: documents
       uses: Analog-inc/asciidoctor-action@master
-        with:
-          shellcommand: "cd sites/talks.brianketelsen.com && asciidoctor index.adoc"
+      with:
+        shellcommand: "cd sites/talks.brianketelsen.com && asciidoctor index.adoc"
 
 
