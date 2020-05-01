@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://carlosvin.github.io/sitemap.xml
+Sitemap: https://brianketelsen.com/sitemap.xml

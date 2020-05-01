@@ -1,8 +1,8 @@
 {
 	"background_color": "#ffffff",
 	"theme_color": "#333333",
-	"name": "Carlos says bla bla",
-	"short_name": "Bla bla blog",
+	"name": "Brian Ketelsen",
+	"short_name": "Blog",
 	"display": "minimal-ui",
 	"start_url": "/",
 	"icons": [
