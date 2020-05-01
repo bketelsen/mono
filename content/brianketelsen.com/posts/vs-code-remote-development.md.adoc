@@ -24,14 +24,14 @@ And they're a dream come true for me.
 
 Each of these extensions allows you to run VS Code on `some computer` but the code and tools are on `some other compute device`.
 
-==== Remote - WSL
+=== Remote - WSL
 
 If you're a Windows user, you know the frustration of working on a project that expects to be developed in Linux.
 There are hacks and workarounds for using VS Code in Windows and keeping the development tools in WSL, but the https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl[remote-wsl] extension solves this problem officially.
 You use Code in Windows, but the dev tools and environment live in WSL.
 Talk about the best of both worlds!
 
-==== Remote - Container
+=== Remote - Container
 
 With the https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers[remote-containers] plugin, you add a Dockerfile and a configuration file to your project and VS Code will automatically prompt you to spin up the container as your development environment.
 It will mount your code inside the container, and run as if you are developing inside the target environment.
@@ -39,7 +39,7 @@ It will mount your code inside the container, and run as if you are developing i
 This is the `perfect` way to ship a pre-configured development environment for an Open Source project, for example.
 I'm really excited to add this to several of my projects.
 
-==== Remote - SSH
+=== Remote - SSH
 
 Of the three, I will probably use this one the most.
 In fact I'm using it to write this blog post.

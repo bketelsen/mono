@@ -25,7 +25,6 @@ In a discussion with https://twitter.com/robconery[Rob Conery] I made the bold s
 To put my money where my mouth is, I've (personally) purchased a https://www.microsoft.com/en-us/surface/business/surface-laptop-3[Surface Laptop 3], and I'm going to use it as my daily workhorse for the next 30 days.
 We'll call it the #30DayWSLChallenge.
 
-Find other articles in this series link:/tags/30daywslchallenge/[with this link].
 
 === Assumptions
 
@@ -243,7 +242,7 @@ Crazy awesome stuff.
 == Conclusion
 
 From here you are ready to clone a repo and start making changes.
-Follow along link:/tags/30daywslchallenge/[here] as I add more tips and tricks that I discover on my journey to reduce the number of physical and virtual computers required to do my job.
+In the future I add more tips and tricks that I discover on my journey to reduce the number of physical and virtual computers required to do my job.
 
 == References and Further Information
 

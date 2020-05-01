@@ -24,7 +24,7 @@ The OS itself is still visually superior to anything else, but it's been showing
 It's clear from Apple's recent announcements that they are a mobile OS/hardware company that happens to sell computers too.
 They're not sad to lose me, I'm sure.
 
-My article in July about link:/blog/i3-windows/[Windows Subsystem for Linux] hinted at my excitement about being able to run a solid desktop OS but still do the open source sort of development that really needs to be done on a Linux type operating system.
+My article in July about Windows Subsystem for Linux hinted at my excitement about being able to run a solid desktop OS but still do the open source sort of development that really needs to be done on a Linux type operating system.
 I abandoned that effort in July because it was still too alpha quality.
 Too many things didn't work.
 But it's November now, several builds later and Microsoft is shipping Ubuntu 16.04.1 in the latest Windows Insider releases.

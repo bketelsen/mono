@@ -13,7 +13,7 @@ http://byobu.co/[Byobu] is a frontend for `tmux` and `screen` that allows you to
 It's one of the biggest time-savers in my bag of tricks.
 Read along to learn how I use it.
 
-=== Installing
+== Installing
 
 This article applies to any *nix-like system, despite the "on WSL" in the title.
 
