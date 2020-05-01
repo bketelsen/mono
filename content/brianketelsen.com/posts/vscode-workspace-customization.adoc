@@ -1,7 +1,6 @@
 = Visual Studio Code Workspace Customization
-:date: 2020-05-01
+:date: 2020/05/01
 :lang: en
-:draft: true
 :keywords: Development
 :description: Notes about customization of VS Code Workspaces
 :toc:
