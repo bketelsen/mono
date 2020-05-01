@@ -11,10 +11,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
-
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js 12
@@ -23,3 +20,9 @@ jobs:
         node-version: 12
     - run: cd sites/brianketelsen.com && yarn
     - run: cd sites/brianketelsen.com && yarn export
+  deploy:
+    steps:
+      uses: cloudflare/wrangler-action@1.1.0
+      with:
+        apiToken: ${{ secrets.CF_API_TOKEN }}
+        workingDirectory: 'sites/brianketelsen.com'
