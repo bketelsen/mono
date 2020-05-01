@@ -99,12 +99,13 @@ class BlogStore {
         }
     }
 
-    static _toIndexEntry({title, summary, slug, lang, date, modified, updated, keywords}, langs){
+    static _toIndexEntry({title, image_url, summary, slug, lang, date, modified, updated, keywords}, langs){
         const otherLangs = langs.filter(l => l !== lang);
         return {
             title, 
             summary, 
             slug, 
+            image_url,
             lang, 
             otherLangs,
             date: updated || modified || date,

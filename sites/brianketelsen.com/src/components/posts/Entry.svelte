@@ -2,6 +2,8 @@
   import { path } from "../../services/models";
   import Entry from "../Entry.svelte";
   export let post;
+
+
 </script>
 
 <style>
@@ -37,6 +39,7 @@
   .title {
     font-size: 1.2em;
   }
+  
 </style>
 
 {#if post}
