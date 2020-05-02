@@ -4,7 +4,7 @@ export const SITE_NAME = {
 };
 
 export const SITE_DESCRIPTION = {
-    "es": "Sniffing glue",
+    "es": "Personal website for Brian Ketelsen, technologist, explorer, teacher, conference organizer.",
     "en": "Sniffing glue",
 };
 
