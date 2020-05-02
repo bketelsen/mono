@@ -1,5 +1,5 @@
 <script>
-  import { path } from "../../services/models";
+  import { snackPath } from "../../services/models";
   import Entry from "../Entry.svelte";
   export let post;
 
@@ -10,14 +10,7 @@
   .summary {
     color: #676767;
   }
-  .lang {
-    padding-right: 0.2em;
-    padding-left: 0.2em;
-    color: #333;
-  }
-  .lang:not(:last-child)::after {
-    content: ", ";
-  }
+
   .description {
     display: flex;
   }
@@ -45,7 +38,7 @@
 {#if post}
   <Entry>
     <div class="container">
-      <a rel="prefetch" href={path(post.slug)} class="title">{post.title}</a>
+      <a rel="prefetch" href={snackPath(post.slug)} class="title">{post.title}</a>
       <div class='subtitle'>
         <span class="date">{new Date(post.date).toLocaleDateString()}</span>
       </div>

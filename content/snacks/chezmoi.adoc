@@ -1,0 +1,15 @@
+= Managing Dotfiles with Chezmoi
+:date: 2020/05/02
+:draft: false 
+:keywords: Linux
+:description: Manage your dotfiles with Chezmoi
+:slug: chezmoi
+:chezmoi: https://www.chezmoi.io/[Chezmoi]
+:youtube: https://www.youtube.com/watch?v=HXx6ugA98Qo[Youtube]
+
+
+Video walk-through of how to use Chezmoi to manage your dotfiles.
+
+== Chezmoi
+
+Here's a video on {youtube} I made to show how I manage my dotfiles using {chezmoi}.

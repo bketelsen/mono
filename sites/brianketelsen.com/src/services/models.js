@@ -1,4 +1,4 @@
-import { BLOG_BASE_PATH, BASE_URL } from '../conf';
+import { SNACK_BASE_PATH, BLOG_BASE_PATH, BASE_URL } from '../conf';
 
 export function path(slug, lang = '') {
     if (lang) {
@@ -8,6 +8,13 @@ export function path(slug, lang = '') {
     }
 }
 
+export function snackPath(slug) {
+        return `/${SNACK_BASE_PATH}/${slug}`;
+}
+
+export function snackUrl(slug){
+    return `${BASE_URL}${snackPath(slug)}`;
+}
 export function url(slug, lang = ''){
     return `${BASE_URL}${path(slug, lang)}`;
 }

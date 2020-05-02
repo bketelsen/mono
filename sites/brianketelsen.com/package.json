@@ -1,6 +1,6 @@
 {
-  "name": "carlos-says-bla-bla",
-  "description": "Carlos says bla bla blog",
+  "name": "brianketelsen",
+  "description": "Brian Ketelsen personal website",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
