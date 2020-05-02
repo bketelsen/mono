@@ -59,9 +59,15 @@
     }
   }
 </style>
+<script>
+  import { getSiteName, getDescription } from "../services/lang";
+
+</script>
 
 <svelte:head>
-  <title>Home :: Brian Ketelsen</title>
+  <title>{getSiteName()}</title>
+  <meta name="description" content={getDescription()} />
+
 </svelte:head>
 
 <div class="home-container">
