@@ -1,9 +1,9 @@
 name = "sapperadoc"
 type = "webpack"
 account_id = "ada37dcd6014ac51906845ec06d78079"
-workers_dev = true
-route = ""
-zone_id = ""
+workers_dev = false
+route = "brianketelsen.com/*"
+zone_id = "f1b855f071b25dfdf1d009526f323019"
 
 [site]
 bucket = "__sapper__/export"
