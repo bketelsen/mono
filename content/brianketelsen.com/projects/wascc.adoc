@@ -1,0 +1,15 @@
+= waSCC
+:date: 2020/05/02
+:draft: false 
+:keywords: Rust, WASM
+:description: Web Assembly Actors With Secure Capabilities 
+:slug: wascc
+:github: https://github.com/wascc
+:wascc: https://wascc.dev[waSCC]
+
+
+A dynamic, elastically scalable WebAssembly host runtime for securely connecting actors and capability providers.
+
+== waSCC
+
+waSCC is a project that allows teams to build secure actors that consume hot-swappable capabilities on the host system to enable faster time-to-market for microservices.
