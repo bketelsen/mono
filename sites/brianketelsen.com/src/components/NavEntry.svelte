@@ -25,6 +25,7 @@
 
 	a {
 		text-decoration: none;
+		text-transform: uppercase;
 		padding: 1em 0.5em;
 		display: block;
 	}
