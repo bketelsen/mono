@@ -1,0 +1,11 @@
+= Sites
+
+
+== brianketelsen.com
+Sapper, content from /content/brianketelsen.com and /content/snacks
+
+== gatsbyweb
+previous gatsby website, content pulled from content.brian.dev
+
+== talks.brianketelsen.com
+currently broken, should have an index page that links to individual presentations
