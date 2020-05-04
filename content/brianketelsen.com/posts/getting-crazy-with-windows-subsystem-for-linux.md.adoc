@@ -4,7 +4,7 @@
 :keywords: WSL, Windows
 :description: Lately I've been on a https://blog.gopheracademy.com/advent-2017/repeatable-isolated-dev-environments/[mission] to separate my development environments by project, and by category (personal/work/Gophercon/etc).
 :slug: getting-crazy-with-windows-subsystem-for-linux 
-:image_url: /uploads/f51e0f5db0fe489db7031d4050dd1863.png   
+:image_url: images/uploads/f51e0f5db0fe489db7031d4050dd1863.png   
 :image_credit: Getting Crazy with Windows Subsystem for Linux   
 :image_credit_url: '#' 
 

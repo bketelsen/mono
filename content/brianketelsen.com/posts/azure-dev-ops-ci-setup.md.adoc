@@ -4,7 +4,7 @@
 :keywords: CI/CD, Azure
 :description: C/I Setup on Azure DevOps
 :slug: azure-dev-ops-ci-setup 
-:image_url: /uploads/6655acdb14ab4463939ddf47d92868d4.jpg   
+:image_url: images/uploads/6655acdb14ab4463939ddf47d92868d4.jpg   
 :image_credit: Azure DevOps CI Setup   
 :image_credit_url: '#' 
 
@@ -16,26 +16,26 @@ This post documents my setup for an https://github.com/gophersnacks/site[Elixir/
 
 Step one is to head to the https://github.com/marketplace/azure-pipelines[Github Marketplace] and install the Azure Pipelines service.
 
-image::https://content.brian.dev/uploads/3d79ad4e82704fa381a8f32af094b91f.png[Azure Pipelines on Github]
+image::images/uploads/3d79ad4e82704fa381a8f32af094b91f.png[Azure Pipelines on Github]
 
 I clicked on the "Set up a plan" button, and then selected the Free option, and "Install it for free" link.
 This allows Linux, Mac and Windows build machines, with 10 free parallel jobs.
 That's plenty for most open source projects.
 
-image::https://content.brian.dev/uploads/84e39a4b6bc54504b6c7a9661d211c4d.png[Confirmation Dialog]
+image::images/uploads/84e39a4b6bc54504b6c7a9661d211c4d.png[Confirmation Dialog]
 
 Next I confirmed the Marketplace change by choosing the "Complete order and begin installation" button.
 
-image::https://content.brian.dev/uploads/3261b755243c466ba2072d618f7e0aa7.png[Review Order]
+image::images/uploads/3261b755243c466ba2072d618f7e0aa7.png[Review Order]
 
 After authentication with my Azure account, I needed to create a Project.
 Projects in Azure DevOps are conceptual containers that host a single repository and it's build procedures.
 
-image::https://content.brian.dev/uploads/e2c4441bab0540e9bcbefc2b52b15c3e.png[Setup Project]
+image::images/uploads/e2c4441bab0540e9bcbefc2b52b15c3e.png[Setup Project]
 
 After creating the project, I needed to pick a repository:
 
-image::https://content.brian.dev/uploads/d2cb837e0c7d4eac98c6eb2f0fd9d3a0.png[Choose A Repository]
+image::images/uploads/d2cb837e0c7d4eac98c6eb2f0fd9d3a0.png[Choose A Repository]
 
 === Configuration
 
@@ -70,7 +70,7 @@ After some experimentation I created two steps in my pipeline, the first runs te
 As is the case every time I create a new CI environment, it took 40 commits to get the Docker networking and database configuration setup right.
 Eventually, though, I succeeded:
 
-image::https://content.brian.dev/uploads/512fbfeeead148ada3b15c495993b143.png[FAIL]
+image::images/uploads/512fbfeeead148ada3b15c495993b143.png[FAIL]
 
 These results were correct;
 I hadn't updated the tests since adding authentication to the web app yesterday.

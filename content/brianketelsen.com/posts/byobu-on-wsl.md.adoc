@@ -4,7 +4,7 @@
 :slug: byobu-on-wsl 
 :keywords: WSL, Terminal
 :description: Using Byobu on WSL
-:image_url: /uploads/9e06273c9ca041cabe7c91d3c1e56698.jpg   
+:image_url: images/uploads/9e06273c9ca041cabe7c91d3c1e56698.jpg   
 :credit: Byobu on WSL   
 :credit_url: '#' 
 
@@ -20,11 +20,11 @@ This article applies to any *nix-like system, despite the "on WSL" in the title.
 You can install Byobu on nearly any *nix-like operating system.
 Since I'm using Ubuntu and Debian, I'll use `apt` to install the version that is shipped with the OS:
 
-image::https://content.brian.dev/uploads/173cf4ad653544199b18caefb7815fde.png[Check to see if byobu is installed]
+image::images/uploads/173cf4ad653544199b18caefb7815fde.png[Check to see if byobu is installed]
 
 Once installed it's easy to start a session, just type the `byobu` command:
 
-image::https://content.brian.dev/uploads/35b254fc1bdd44da99f03daa89204969.png[A new Byobu session]
+image::images/uploads/35b254fc1bdd44da99f03daa89204969.png[A new Byobu session]
 
 === Enabling
 
@@ -49,12 +49,12 @@ If you've used a terminal client that supports tabs, this isn't much different.
 The benefit is that your windows are persisted with your session.
 So you can exit and resume your session with all your windows intact.
 
-image::https://content.brian.dev/uploads/d24d31e5e6954e86bd3f2cf934a0140e.png[A single byobu window]
+image::images/uploads/d24d31e5e6954e86bd3f2cf934a0140e.png[A single byobu window]
 
 Windows are labeled with a number in the status bar at the bottom of the screen.
 Press `F2` to open a new window and you should see a second terminal appear:
 
-image::https://content.brian.dev/uploads/afd632e1757c4c7eb4ca3eb1182f79dc.png[A second byobu window]
+image::images/uploads/afd632e1757c4c7eb4ca3eb1182f79dc.png[A second byobu window]
 
 Now I have two windows open, labeled `0:neovim` and `1:` in the taskbar.
 I skipped a step here and renamed my original window so I wouldn't get lost when I add more than one.
@@ -68,7 +68,7 @@ To navigate between your windows, use `F3` and `F4` for previous and next window
 Sometimes, I like to have two different terminal applications running in one window.
 For example, when editing this blog:
 
-image::https://content.brian.dev/uploads/655ad82918be46578b16176f2310b052.png[A split window]
+image::images/uploads/655ad82918be46578b16176f2310b052.png[A split window]
 
 The top part of the split has `neovim` editing the content of this post.
 The bottom part of the split is the output of `hugo` as it watches the content directory.

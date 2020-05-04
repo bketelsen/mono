@@ -4,7 +4,7 @@
 :keywords: Apple, Microsoft, Mac, Windows
 :description: Moving to Windows
 :slug: switching-irony-and-operating-systems 
-:image_url: /uploads/491f01dbe9a745aeba4d880c28550af6.png   
+:image_url: images/uploads/491f01dbe9a745aeba4d880c28550af6.png   
 :image_credit: Switching - Irony and Operating Systems   
 :image_credit_url: '#' 
 

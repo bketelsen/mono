@@ -4,7 +4,7 @@
 :keywords: WSL, Windows, i3
 :description:  Running i3 on WSL
 :slug: running-i3-window-manager-on-bash-for-windows 
-:image_url: /uploads/73e40d8764b54ec99bd1292eb59bdc4b.png   
+:image_url: images/uploads/73e40d8764b54ec99bd1292eb59bdc4b.png   
 :image_credit: Running i3 Window Manager on Bash For Windows   
 :image_credit_url: '#' 
 
@@ -96,6 +96,6 @@ _This article was created in `neovim` for Linux, running on a `zsh` shell inside
 
 Screen shots:
 
-image::https://content.brian.dev/uploads/242fe11972d44c89b2454ee6392dd38c.png[i3 in MobaXTerm]
+image::images/uploads/242fe11972d44c89b2454ee6392dd38c.png[i3 in MobaXTerm]
 
-image::https://content.brian.dev/uploads/237fd4061c4b470d92fd52d30760cf99.png[i3 behind Windows]
+image::images/uploads/237fd4061c4b470d92fd52d30760cf99.png[i3 behind Windows]

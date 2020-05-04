@@ -8,6 +8,8 @@ import config from 'sapper/config/rollup.js';
 import pkg from './package.json';
 import glob from 'rollup-plugin-glob';
 import asciidoc from 'rollup-plugin-asciidoc';
+import image from "svelte-image";
+
 
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
@@ -27,7 +29,10 @@ export default {
 			svelte({
 				dev,
 				hydratable: true,
-				emitCss: true
+				emitCss: true,
+				preprocess: {
+					...image(),
+				}
 			}),
 			resolve({
 				browser: true,
@@ -64,7 +69,7 @@ export default {
 		input: config.server.input(),
 		output: config.server.output(),
 		plugins: [
-      		glob(),
+			glob(),
 			replace({
 				'process.browser': false,
 				'process.env.NODE_ENV': JSON.stringify(mode)

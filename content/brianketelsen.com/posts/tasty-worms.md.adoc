@@ -3,7 +3,7 @@
 :draft: false 
 :slug: tasty-worms 
 :keywords: Recipes
-:image_url: /uploads/15b96fc0d84a4c44b13ecb42d40ba1dc.jpg   
+:image_url: images/uploads/15b96fc0d84a4c44b13ecb42d40ba1dc.jpg   
 :image_credit: Tasty Worms   
 :image_credit_url: '#' 
 :description: The spice must flow.

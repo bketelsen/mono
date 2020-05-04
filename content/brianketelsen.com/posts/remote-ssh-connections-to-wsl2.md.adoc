@@ -4,7 +4,7 @@
 :keywords: WSL, SSH
 :description: Connect to your WSL2 instance from another machine.
 :slug: remote-ssh-connections-to-wsl2 
-:image_url: /uploads/d98ef5c6cff646dcb140dae212aacbba.jpg   
+:image_url: images/uploads/d98ef5c6cff646dcb140dae212aacbba.jpg   
 :image_credit: Remote SSH Connections to WSL2   
 :image_credit_url: '#' 
 
@@ -29,13 +29,13 @@ Even over the internet, or a VPN, RDP is extremely usable.
 
 To enable RDP, go to `Start > Settings > System > Remote Desktop`, and enable the slider.
 
-image::https://content.brian.dev/uploads/7640475234ee43ef8f2d4a94f110a497.png[Remote Desktop]
+image::images/uploads/7640475234ee43ef8f2d4a94f110a497.png[Remote Desktop]
 
 If you intend to connect from a client that isn't running Windows (like my iPad, for example) you'll also want to click the `Advanced Settings` link and disable Network Level Authentication.
 This reduces security slightly, so be sure to research the implications and assess your risk before exposing your computers over untrusted networks.
 My desktop is only available on my local network, or when I use the VPN I've created on my Unifi Edge Router.
 
-image::https://content.brian.dev/uploads/a141f2110ca24db2985d40eab20bdbee.png[Network Level Auth]
+image::images/uploads/a141f2110ca24db2985d40eab20bdbee.png[Network Level Auth]
 
 That's all you need to do on the host side.
 On the client, grab a Remote Desktop Client from whichever App Store or software source you usually use for downloads.
@@ -82,24 +82,24 @@ netsh interface portproxy add v4tov4 listenport=2222 listenaddress=0.0.0.0 conne
 Finally I had to allow port 2222 through the Windows Firewall.
 The simplest way to do this is using the advanced firewall configuration.
 
-image::https://content.brian.dev/uploads/eff8b846babe4cf393ce84eedda70e3e.png[Firewall Settings]
+image::images/uploads/eff8b846babe4cf393ce84eedda70e3e.png[Firewall Settings]
 
 Then open the Advanced Firewall settings:
 
-image::https://content.brian.dev/uploads/771f1ab0a1e34c1e968831498dd5ebe2.png[Advanced Firewall Settings]
+image::images/uploads/771f1ab0a1e34c1e968831498dd5ebe2.png[Advanced Firewall Settings]
 
 Click "Inbound" in the left pane, then "New..." on the right pane.
 Choose "Port":
 
-image::https://content.brian.dev/uploads/fe9af91c4fa84146bbc0fde148828244.png[Port]
+image::images/uploads/fe9af91c4fa84146bbc0fde148828244.png[Port]
 
 Then specify port 2222:
 
-image::https://content.brian.dev/uploads/620e43b5fda14bbbb02408d9ce9cf143.png[Port 2222]
+image::images/uploads/620e43b5fda14bbbb02408d9ce9cf143.png[Port 2222]
 
 Specify "Allow"
 
-image::https://content.brian.dev/uploads/c98193138c4c4cf5bfcb761da4cb91c6.png[Allow]
+image::images/uploads/c98193138c4c4cf5bfcb761da4cb91c6.png[Allow]
 
 Then uncheck "Public" when it asks which networks to apply these rules to.
 If you're on a public network, we don't want anybody trying to get ssh access anywhere.

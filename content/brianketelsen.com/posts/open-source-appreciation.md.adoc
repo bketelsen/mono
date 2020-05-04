@@ -4,7 +4,7 @@
 :keywords: Open Source
 :description: Show your OSS maintainers some love!
 :slug: open-source-appreciation 
-:image_url: /uploads/a307fcab3b2f48629d37a429bbba05d3.jpg   
+:image_url: images/uploads/a307fcab3b2f48629d37a429bbba05d3.jpg   
 :image_credit: Open Source Appreciation   
 :image_credit_url: '#' 
 

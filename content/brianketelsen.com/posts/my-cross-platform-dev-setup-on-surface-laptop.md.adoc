@@ -4,7 +4,7 @@
 :keywords: WSL
 :description: Cross platform development environment for my Surface Laptop
 :slug: my-cross-platform-dev-setup-on-surface-laptop 
-:image_url: /uploads/32f178dad7c94e5bb78194a83bd316db.png   
+:image_url: images/uploads/32f178dad7c94e5bb78194a83bd316db.png   
 :image_credit: My Cross-Platform Dev Setup on Surface Laptop   
 :image_credit_url: '#' 
 
@@ -63,7 +63,7 @@ ____
 It drove me crazy, and blocked me from even looking at the windows filesystem from bash.
 ____
 
-image::https://content.brian.dev/uploads/a6f66697d2714b56b9560df579dd1378.png[uglycolors]
+image::images/uploads/a6f66697d2714b56b9560df579dd1378.png[uglycolors]
 
 That meant that my source code was only in WSL's filesystem, and completely invisible to Windows.
 In turn, this caused limitations on what I could do with the code.
@@ -71,7 +71,7 @@ Because it was only in WSL, I had to operate on the files using either command-l
 It wasn't a show-stopper, but it was a little awkward.
 
 I don't know why it didn't occur to me before, but I just removed the "--color=auto" settings in my .bashrc last weekend, and suddenly I was perfectly happy looking at files on the Windows filesystem from WSL's bash.
-image:https://content.brian.dev/uploads/93b6088ba3b948f2a3c42e0b1ea51bac.png[nouglycolors]  No strange colors, no mental block about viewing the files!
+image:images/uploads/93b6088ba3b948f2a3c42e0b1ea51bac.png[nouglycolors]  No strange colors, no mental block about viewing the files!
 This was actually a pretty big turning point for me.
 As crazy as it may sound, just removing coloring from my bash prompt unblocked me from using and viewing the Windows filesystem from WSL.
 Tiny change, huge mental gain.
@@ -115,7 +115,7 @@ To let Docker work against the Windows installation, I needed to export "DOCKER_
 export DOCKER_HOST=tcp://127.0.0.1:2375
 ----
 
-It's also necessary to tell Docker for Windows to listen on TCP: image:https://content.brian.dev/uploads/1ff54ca30abf4a9e99356793f3304aed.png[dockersettings]
+It's also necessary to tell Docker for Windows to listen on TCP: image:images/uploads/1ff54ca30abf4a9e99356793f3304aed.png[dockersettings]
 
 Now Docker works from both Windows and WSL.
 All my code and scripts that expected a local Docker instance continue to work as they did when I was developing directly on a Linux host.

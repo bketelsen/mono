@@ -3,7 +3,7 @@
 :draft: false 
 :keywords: Development
 :slug: vs-code-remote-development 
-:image_url: /uploads/bcf0ca90ceed4fc1ae16fac7b13bbaa2.jpg   
+:image_url: images/uploads/bcf0ca90ceed4fc1ae16fac7b13bbaa2.jpg   
 :image_credit: VS Code Remote Development   
 :image_credit_url: '#' 
 :description: Code anywhere
@@ -44,7 +44,7 @@ I'm really excited to add this to several of my projects.
 Of the three, I will probably use this one the most.
 In fact I'm using it to write this blog post.
 
-image::https://content.brian.dev/uploads/afdd188f9ccd4adda98409d7f01645b5.png[remote-ssh]
+image::images/uploads/afdd188f9ccd4adda98409d7f01645b5.png[remote-ssh]
 
 The https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh[remote-ssh] extension uses an SSH client on the host to communicate with a remote computer.
 If you have a beefy development machine (either locally or in the cloud), this is the perfect way to keep your development experience stable no matter what computer you're sitting at.
@@ -53,7 +53,7 @@ No more syncing unfinished code between machines for me.
 The extension even does port forwarding over your ssh connection.
 When you start your website or service, it will forward that port for you to the local machine.
 
-image::https://content.brian.dev/uploads/574d06da72da4c9892a9fc3d4f0543db.png[remote-menu]
+image::images/uploads/574d06da72da4c9892a9fc3d4f0543db.png[remote-menu]
 
 I've been using the preview version of these three extensions for a few weeks now, and I couldn't be happier with the setup.
 I've used them from a Mac, from a Chromebook with Crostini, from Linux, and from Windows.

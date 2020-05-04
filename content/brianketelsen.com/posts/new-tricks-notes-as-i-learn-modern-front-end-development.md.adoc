@@ -3,7 +3,7 @@
 :draft: false 
 :description: Sometimes learning is hard.
 :slug: new-tricks-notes-as-i-learn-modern-front-end-development 
-:image_url: /uploads/864b0e1dbe2d4997a730e9b6e353b68a.jpg   
+:image_url: images/uploads/864b0e1dbe2d4997a730e9b6e353b68a.jpg   
 :image_credit: New Tricks - notes as I learn modern front-end development   
 :image_credit_url: '#' 
 

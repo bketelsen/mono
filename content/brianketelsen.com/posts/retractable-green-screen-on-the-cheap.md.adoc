@@ -4,7 +4,7 @@
 :keywords: Hacks, Video
 :description: A low cost setup for a green screen
 :slug: retractable-green-screen-on-the-cheap 
-:image_url: /uploads/d44eca7292c345b9bdbf45055af291bf.jpeg   
+:image_url: images/uploads/d44eca7292c345b9bdbf45055af291bf.jpeg   
 :image_credit: Retractable Green Screen On the Cheap   
 :image_credit_url: '#' 
 
@@ -23,18 +23,18 @@ I didn't want to use anything that heavy, so I went to Lowes and found PVC pipe 
 Then I measured the target wall and found it was 11.5 feet wide, perfect for my install.
 I did the math to center the mount on the wall, accounting for the several inches of the pole-mount that stick out from each side.
 
-image::https://content.brian.dev/uploads/1cd6c8cc640f4866bb2d7c60dd3c5e88.jpeg[Triple Bracket Mounted On The Wall]
+image::images/uploads/1cd6c8cc640f4866bb2d7c60dd3c5e88.jpeg[Triple Bracket Mounted On The Wall]
 
 Then to secure the backdrop to the PVC tubing, I reinforced the backdrop with Gorilla tape every 12 inches.
 Duct tape or any other strong tape would work fine.
 I drilled a hole through the reinforced backdrop and inserted a wood screw and washer to keep the backdrop secured to the PVC pipe.
 
-image::https://content.brian.dev/uploads/989a867e993149b2b61d905d421d0850.jpg[Reinforced Fabric with Gorilla Tape]
+image::images/uploads/989a867e993149b2b61d905d421d0850.jpg[Reinforced Fabric with Gorilla Tape]
 
 The whole thing took about an hour, mostly because it was awkward working with such a wide format project.
 I called my kids in randomly to help when I needed an extra set of hands.
 
-image::https://content.brian.dev/uploads/b3000d4f0aaf4ce0a194e6258c73e903.jpeg[Final Assembly]
+image::images/uploads/b3000d4f0aaf4ce0a194e6258c73e903.jpeg[Final Assembly]
 
 It was really inexpensive, and I can add two more backdrops in the future if the need arises.
 Far better than the $1500+ solutions I found at photography stores, and much less intrusive than the nasty stands that take up too much floor space.

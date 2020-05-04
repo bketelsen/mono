@@ -4,7 +4,7 @@
 :keywords: Recipes
 :description: This recipe replicates the Egg Bites that I love from Starbucks.
 :slug: egg-bites 
-:image_url: /uploads/b90d805ebf904dd09ff2116f5341820c.jpeg   
+:image_url: images/uploads/b90d805ebf904dd09ff2116f5341820c.jpeg   
 :credit: Egg Bites   
 :credit_url: '#' 
 

@@ -4,7 +4,7 @@
 :keywords: Go
 :description: Link to an article on O'Reilly
 :slug: sync-err-group 
-:image_url: /uploads/a3382a89193148168be4cf56b5cbc19f.jpg   
+:image_url: images/uploads/a3382a89193148168be4cf56b5cbc19f.jpg   
 :image_credit: sync.ErrGroup   
 :image_credit_url: '#' 
 

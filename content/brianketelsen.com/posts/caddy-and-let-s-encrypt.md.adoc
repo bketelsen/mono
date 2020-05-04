@@ -4,7 +4,7 @@
 :keywords: Open Source
 :description: Free TLS certificates on a really smooth web server
 :slug: caddy-and-let-s-encrypt 
-:image_url: /uploads/27a382860fef4a198f01f5a6aba24d57.jpg   
+:image_url: images/uploads/27a382860fef4a198f01f5a6aba24d57.jpg   
 :image_credit: Caddy and Let's Encrypt   
 :image_credit_url: '#' 
 

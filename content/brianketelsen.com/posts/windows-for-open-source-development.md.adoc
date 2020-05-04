@@ -4,7 +4,7 @@
 :keywords: Windows, Open Source
 :description: This isn't the Windows you thought you knew.
 :slug: windows-for-open-source-development 
-:image_url: /uploads/dcfd43df952b4874ace2f154c45cc82f.jpg   
+:image_url: images/uploads/dcfd43df952b4874ace2f154c45cc82f.jpg   
 :image_credit: Windows for Open Source Development   
 :image_credit_url: '#' 
 
@@ -56,13 +56,13 @@ When it asks you to reboot, you can choose the "later" option, we have plenty of
 Go to `Start > Settings > System > About` and click the `Rename this PC` button.
 I like to name my computers after https://dune.fandom.com/wiki/Category:Planets[planets in the Dune series of novels], but you do you...
 
-image::https://content.brian.dev/uploads/7b80c25d735a4fac8086a4ea71d08f7f.jpg[Rename PC]
+image::images/uploads/7b80c25d735a4fac8086a4ea71d08f7f.jpg[Rename PC]
 
 * Move to Windows Insider to get beta builds.
 
 Open the Start Menu, then choose Settings, then Update & Security
 
-image::https://content.brian.dev/uploads/77cf4c1d4399482caf61721d202e4dce.png[Insider]
+image::images/uploads/77cf4c1d4399482caf61721d202e4dce.png[Insider]
 
 Add or link an account, and set up https://insider.windows.com/en-us/[Windows Insider] preferences to be either https://insider.windows.com/en-us/how-to-pc/#about-rings["Slow Ring" or "Fast Ring"] to enable WSL2.
 Enabling Windows Insider will require a reboot.
@@ -88,7 +88,7 @@ It will be automatically installed after an update or two, so this isn't critica
 
 Open PowerShell as an Administrator:
 
-image::https://content.brian.dev/uploads/579086cc6aa440e4944b4ddd14ccf3a0.png[Elevated Access Powershell]
+image::images/uploads/579086cc6aa440e4944b4ddd14ccf3a0.png[Elevated Access Powershell]
 
 run these two commands:
 
@@ -120,24 +120,24 @@ Install https://www.microsoft.com/store/productId/9NBLGGH4MSV6[Ubuntu] from the 
 Don't pick a versioned app, just choose the `Ubuntu` app without a version.
 It follows LTS.
 
-image::https://content.brian.dev/uploads/2362f22f12c646bfb07c124764f7a75a.png[Ubuntu]
+image::images/uploads/2362f22f12c646bfb07c124764f7a75a.png[Ubuntu]
 
 Install https://www.microsoft.com/store/productId/9N0DX20HK701[Windows Terminal].
 The new Windows Terminal is a solid terminal emulator, and you'll feel at home here if you're used to iTerm2 or Gnome Terminal.
 I didn't mark this as optional, because you're used to using a real terminal, and Windows Terminal is the only thing that will satisfy you.
 Trust me on this.
 
-image::https://content.brian.dev/uploads/f24aa468ca264274b2db1464b32b5a24.png[Windows Terminal]
+image::images/uploads/f24aa468ca264274b2db1464b32b5a24.png[Windows Terminal]
 
 * Open the `Ubuntu` app from your Start menu
 
-image::https://content.brian.dev/uploads/e0a6ef85198844cfaa11fd0cec5868b5.png[ubuntu]
+image::images/uploads/e0a6ef85198844cfaa11fd0cec5868b5.png[ubuntu]
 
 After a moment, it will ask for a username and password.
 These are your credentials inside the Linux world.
 You can choose any *nix friendly username.
 
-image::https://content.brian.dev/uploads/fbf8b01600024347a11ead81c2693ee5.png[success]
+image::images/uploads/fbf8b01600024347a11ead81c2693ee5.png[success]
 
 * Download and install Visual Studio Code
 
@@ -146,11 +146,11 @@ Install it when the download is complete.
 
 * Pin VS Code and Windows Terminal to your start menu (and maybe your taskbar)
 
-image::https://content.brian.dev/uploads/fe4e2e76f9064f4e81f7ab906832c943.png[pin]
+image::images/uploads/fe4e2e76f9064f4e81f7ab906832c943.png[pin]
 
 * Install the Remote WSL extension in Visual Studio Code which is part of the https://code.visualstudio.com/docs/remote/remote-overview#_remote-development-extension-pack[VS Code Remote Development extension pack]
 
-image::https://content.brian.dev/uploads/19e036e535fd44acaef581ec6a7ee02f.png[remote]
+image::images/uploads/19e036e535fd44acaef581ec6a7ee02f.png[remote]
 
 * Configure Windows Terminal
 
@@ -160,7 +160,7 @@ Choose "Settings".
 Find the stanza with your "Ubuntu" installation and copy the `guid`.
 Paste it into the value for "defaultProfile" at the top of the settings file.
 
-image::https://content.brian.dev/uploads/e79496aaee6942aeba2e7efa4b976ac7.png[default]
+image::images/uploads/e79496aaee6942aeba2e7efa4b976ac7.png[default]
 
 While you're in there, download https://github.com/microsoft/cascadia-code/releases[Cascadia Code PL] and install it (by double-clicking on the ttf file).
 Edit your "Ubuntu" profile in the Windows Terminal settings to use the new font:
@@ -194,7 +194,7 @@ See the references and links below for more.
 
 To navigate there directly enter `\\wsl$` in the address bar of Windows Explorer:
 
-image::https://content.brian.dev/uploads/45158d35529547dc891d389dfa72533b.png[Windows Explorer]
+image::images/uploads/45158d35529547dc891d389dfa72533b.png[Windows Explorer]
 
 === Continuing On...
 
@@ -218,7 +218,7 @@ Recently https://docs.docker.com/docker-for-windows/wsl-tech-preview/[Docker ann
 Impressive reading in that link if you're interested in the technical details.
 Follow the directions in that link to install and enable WSL2-friendly Docker Desktop.
 
-image::https://content.brian.dev/uploads/59801cb4551048c48140e9f8f5ba0390.png[Docker from Both Sides]
+image::images/uploads/59801cb4551048c48140e9f8f5ba0390.png[Docker from Both Sides]
 
 You can even just https://docs.docker.com/install/linux/docker-ce/ubuntu/[install Docker Engine - Community for Ubuntu] right inside WSL, if you prefer.
 
