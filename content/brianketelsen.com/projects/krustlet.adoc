@@ -4,7 +4,7 @@
 :keywords: Rust, WASM
 :description: Web Assembly on Kubernetes
 :slug: krustlet
-:github: https://github.com/deislabs/krustlet[Github]
+:github: https://github.com/deislabs/krustlet
 :wascc: https://wascc.dev[waSCC]
 
 Krustlet is a Rust project to execute Web Assembly in a Kubernetes Pod.
