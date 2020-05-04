@@ -65,6 +65,7 @@
 		<NavEntry href='blog' segment={segment}>Blog</NavEntry>
 		<NavEntry href='categories' segment={segment}>Categories</NavEntry>
 		<NavEntry href='snacks' segment={segment}>Snacks</NavEntry>
+		<NavEntry href='projects' segment={segment}>Projects</NavEntry>
 		<NavEntry href='about' segment={segment}>About</NavEntry>
 	</ul>
 	<slot></slot>

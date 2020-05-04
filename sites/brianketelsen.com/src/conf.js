@@ -12,7 +12,7 @@ export const BLOG_BASE_PATH = 'posts';
 export const CATEGORIES_BASE_PATH = 'categories';
 export const SNACKS_BASE_PATH = 'snacks';
 export const SNACK_BASE_PATH = 'snack';
-
+export const PROJECTS_BASE_PATH = 'projects';
 
 // TODO it should be an environment variable read from build system
 export const BASE_URL = 'https://brianketelsen.com';
