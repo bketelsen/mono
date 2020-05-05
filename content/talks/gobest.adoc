@@ -16,8 +16,7 @@
 
 
 
-[transition-speed=fast, %notitle]
-[background-color="#737373"]
+[.category-title]
 == Outline
 
 * Packages

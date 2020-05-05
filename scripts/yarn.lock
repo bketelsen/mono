@@ -2,20 +2,28 @@
 # yarn lockfile v1
 
 
-"@asciidoctor/cli@3.4.0":
+"@asciidoctor/cli@3.4.0", "@asciidoctor/cli@^3.1.0":
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/@asciidoctor/cli/-/cli-3.4.0.tgz#586e9133f3367c7b3236631197f4b621890d9227"
   integrity sha512-jOtxA0I6zB+6z+GGwm9+xhlmGTqCTkFPE902L6fauFlE6v7LxjhLYNxvjDVyn0zMrFLybvoSRcAnM3DcticNoQ==
   dependencies:
     yargs "15.3.1"
 
-"@asciidoctor/core@2.2.0":
+"@asciidoctor/core@2.2.0", "@asciidoctor/core@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@asciidoctor/core/-/core-2.2.0.tgz#cae722e32666bf3c38365afe7d05f2f433b165fd"
   integrity sha512-WN/mFuU4SeWaDqpGvRwAf+Tq2T8NQkVVpZ3Ne1/ZRxDKElzFkqq8bGbmxSMWmMVzC+H9ZO1YxxbOjhWEiNvpOA==
   dependencies:
     asciidoctor-opal-runtime "0.3.0"
     unxhr "1.0.1"
+
+"@asciidoctor/reveal.js@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@asciidoctor/reveal.js/-/reveal.js-4.0.1.tgz#1c538839186647f9c00def3e1c8bbfc5cbbbeb14"
+  integrity sha512-LEVNtVDdgVbCqkq0+pmvyaF9ROuvPUVFS84V+UM1SbDnTdqCTio/Oj/k2C7alTANDedIMklxuZGKk38bhJGwoA==
+  dependencies:
+    "@asciidoctor/cli" "^3.1.0"
+    reveal.js "3.9.2"
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
@@ -263,6 +271,11 @@ require-main-filename@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-2.0.0.tgz#d0b329ecc7cc0f61649f62215be69af54aa8989b"
   integrity sha512-NKN5kMDylKuldxYLSUfrbo5Tuzh4hd+2E8NPPX02mZtn1VuREQToYe/ZdlJy+J3uCpfaiGF05e7B8W0iXbQHmg==
+
+reveal.js@3.9.2:
+  version "3.9.2"
+  resolved "https://registry.yarnpkg.com/reveal.js/-/reveal.js-3.9.2.tgz#7f63d3dfec338b6c313dcabdf006e8cf80e0b358"
+  integrity sha512-Dvv2oA9FrtOHE2DWj5js8pMRfwq++Wmvsn1EyAdYLC80lBjTphns+tPsB652Bnvep9AVviuVS/b4XoVY9rXHLA==
 
 set-blocking@^2.0.0:
   version "2.0.0"
