@@ -18,14 +18,22 @@ async function handlePost(request) {
     await SHORT_KV.put(json.entry.short, json.entry.to)
 
     if (json.entry.hasOwnProperty('alias')) {
-      await SHORT_KV.put(json.entry.short + '-alias', json.entry.alias);
+      if (json.entry.code.length > 1) {
+        await SHORT_KV.put(json.entry.short + '-alias', json.entry.alias);
+      }
     }
 
     if (json.entry.hasOwnProperty('code')) {
-      await SHORT_KV.put(json.entry.short + '-code', json.entry.code);
+
+      if (json.entry.code.length > 1) {
+        await SHORT_KV.put(json.entry.short + '-code', json.entry.code);
+      }
     }
     if (json.entry.hasOwnProperty('source')) {
-      await SHORT_KV.put(json.entry.short + '-source', json.entry.source);
+
+      if (json.entry.source.length > 1) {
+        await SHORT_KV.put(json.entry.short + '-source', json.entry.source);
+      }
     }
     return new Response('created' + JSON.stringify(json), {
       status: Number(201)
@@ -53,11 +61,11 @@ async function handleRequest(request) {
 
   const code = await SHORT_KV.get(uri + '-code');
   let extra = ''
-  if (code === null) {
+  if (code === null || code.length < 1) {
     return new Response('', {
       status: Number(301),
       headers: {
-        'Location': value 
+        'Location': value
       }
     });
   }
@@ -66,27 +74,27 @@ async function handleRequest(request) {
   extra = extra + code
 
   const source = await SHORT_KV.get(uri + '-source');
-  if (source === null) {
+  if (source === null || source.length < 1) {
     return new Response('', {
       status: Number(301),
       headers: {
-        'Location': value 
+        'Location': value
       }
     });
   }
-    // we have a source
-    extra = extra + '-' + source
+  // we have a source
+  extra = extra + '-' + source
   const alias = await SHORT_KV.get(uri + '-alias');
-  if (alias === null) {
+  if (alias === null || alias.length < 1) {
     return new Response('', {
       status: Number(301),
       headers: {
-        'Location': value 
+        'Location': value
       }
     });
   }
-    // we have an alias
-    extra = extra + '-' + alias
+  // we have an alias
+  extra = extra + '-' + alias
   return new Response('', {
     status: Number(301),
     headers: {
