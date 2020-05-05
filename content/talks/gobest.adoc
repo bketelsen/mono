@@ -1,4 +1,5 @@
 :includedir: ../../common
+:revealjsdir:  https://cdn.jsdelivr.net/npm/reveal.js@3.9.2
 :date: 2020/04/14 12:00:00
 
 = Code Like the Go Team
