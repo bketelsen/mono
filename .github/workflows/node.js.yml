@@ -20,6 +20,7 @@ jobs:
         node-version: 12
     - run: cd sites/brianketelsen.com && yarn
     - run: cd sites/brianketelsen.com && yarn export
+    - run: cd $GITHUB_WORKSPACE && node scripts/shortcodes.js
     - uses: cloudflare/wrangler-action@1.1.0
       with:
         apiToken: ${{ secrets.CF_API_TOKEN }}

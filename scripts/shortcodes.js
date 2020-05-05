@@ -9,6 +9,7 @@ const Asciidoctor = require('asciidoctor');
 
 const SHORT_URL = 'https://bjk.fyi/redirects';
 const TARGET_BASE = 'https://brianketelsen.com/snacks/'
+const BASE = process.env.GITHUB_WORKSPACE || '/home/bjk/projects/lifehub/mono'
 
 
 const getAllFiles = function (dirPath, arrayOfFiles) {
@@ -29,7 +30,7 @@ const getAllFiles = function (dirPath, arrayOfFiles) {
 
 console.log(__dirname);
 var asciidoctor = Asciidoctor()
-const files = getAllFiles('/home/bjk/projects/lifehub/mono/content/snacks');
+const files = getAllFiles(BASE + '/content/snacks');
 console.log(files);
 files.forEach(function (file) {
 	// Do whatever you want to do with the file
@@ -48,11 +49,14 @@ files.forEach(function (file) {
 	let config = {
 		headers: { 'Content-Type': 'application/json' }
 	};
+	console.log(model);
+	/*
 	axios
 		.post(SHORT_URL, JSON.stringify(model), config)
 		.then((response) => {
 			console.log(response.data);
 		})
+		*/
 
 });
 
