@@ -33,15 +33,14 @@
       x => (x.href = document.location + new URL(x.href).hash)
     );
     const mdata = await talk;
-    const doc = JSON.parse(mdata);
     let parser = new DOMParser();
-    let parsedHtml = parser.parseFromString(doc.html, "text/html");
+    let parsedHtml = parser.parseFromString(mdata.html, "text/html");
     slides = parsedHtml.getElementsByClassName("sect1");
     slide_count = slides.length;
   });
   const changeSlide = event => {
     if (event.keyCode === 37) {
-      if (current_side > 0 ) {
+      if (current_slide > 0 ) {
         --current_slide;
       }
     }
@@ -64,10 +63,11 @@
 </style>
 
 <svelte:window on:keyup={changeSlide} />
-
+<div id="slideshow">
 {#each slides as slide, index}
   {#if index == current_slide}
     {@html slide.innerHTML}
   {/if}
 {/each}
 {current_slide + 1} of {slide_count}
+</div>
