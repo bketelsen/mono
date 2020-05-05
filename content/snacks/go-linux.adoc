@@ -1,0 +1,53 @@
+= Installing Go on Linux
+:date: 2020/05/05
+:draft: false 
+:keywords: Linux
+:description: Learn how to install Go on Linux
+:slug: go-linux
+:dotfiles: https://github.com/bketelsen/dotfiles/blob/master/bin/setup/executable_go.sh[dotfiles]
+
+Install Go on Linux from the command line
+
+== Installing Go
+
+In my {dotfiles} I use the following bash script to install Go:
+
+----
+#! /bin/bash
+set -e
+VERSION=1.14.2
+# Delete existing Go installation
+sudo rm -rf /usr/local/go
+# Install Go in /usr/local
+sudo mkdir -p /usr/local/go \
+    && curl -Ls https://storage.googleapis.com/golang/go$VERSION.linux-amd64.tar.gz \
+    | sudo tar xvzf - -C /usr/local/go --strip-components=1
+----
+
+It installs Go to the recommended location `/usr/local/go`.  It is a destructive script, because it deletes the existing Go installation before installing.  This is OK because there should be no local modifications to the `/usr/local/go` files.
+
+=== Modifying Path
+
+In order to use Go you must modify your path to include `/usr/local/go/bin`.  `PATH` is an environment variable that tells your shell where to find executable programs.  In order to add a directory to your `PATH` you need to modify the environment variable.  
+
+In Bash, Sh, or Ksh, you modify the path with `export`:
+
+----
+export PATH=$PATH:/usr/local/go/bin
+----
+
+The above example adds `/usr/local/go/bin` to the end of your existing `PATH`.  
+
+To make these changes permanent, they need to be added to your profile.
+
+https://stackabuse.com/how-to-permanently-set-path-in-linux/[Here's an article] with instructions on how to change your PATH permanently.
+
+=== Verify Installation
+
+After rebooting or logging out and logging in again, your new `PATH` should be applied.  You can verify that the `go` command is available by checking the version:
+
+----
+$ go version
+go version go1.14.2 linux/amd64
+----
+

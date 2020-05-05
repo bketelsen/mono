@@ -1,0 +1,27 @@
+= Installing Go on macOS
+:date: 2020/05/05
+:draft: false 
+:keywords: Mac
+:description: Learn how to install Go on macOS
+:slug: go-mac
+:download: https://golang.org/dl/[Download]
+
+Download and install Go on macOS
+
+== Mac Installation
+
+{download} the macOS Package installer for the current release of Go.  Open the installer.  It will put your Go installation in `/usr/local/go`.
+
+=== Modified Path
+
+The installer also changes your `PATH` environment variable to add `/usr/local/go/bin` to your path.  You'll need to log out and log back in for these changes to take effect.
+
+
+=== Verify Installation
+
+After rebooting or logging out and logging in again, your new `PATH` should be applied.  You can verify that the `go` command is available by checking the version:
+
+----
+$ go version
+go version go1.14.2 darwin/amd64
+----

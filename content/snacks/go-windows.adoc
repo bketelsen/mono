@@ -1,0 +1,26 @@
+= Installing Go on Windows
+:date: 2020/05/05
+:draft: false 
+:keywords: Windows
+:description: Learn how to install Go in Windows
+:slug: go-windows 
+:download: https://golang.org/dl/[Download]
+
+Download and install Go in Windows
+
+== Windows Installation
+
+{download} the Windows installer MSI file for the current release of Go.  Open the installer.  It will put your Go installation in `C:\Go`.
+
+=== Modified Path
+
+The installer also changes your `PATH` environment variable to add `C:\Go\bin` to your path.  You'll need to log out and log back in for these changes to take effect.
+
+=== Verify Installation
+
+After rebooting or logging out and logging in again, your new `PATH` should be applied.  You can verify that the `go` command is available by checking the version:
+
+----
+$ go version
+go version go1.14.2 windows/amd64
+----
