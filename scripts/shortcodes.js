@@ -49,14 +49,13 @@ files.forEach(function (file) {
 	let config = {
 		headers: { 'Content-Type': 'application/json' }
 	};
-	console.log(model);
-	/*
+	console.log("posting: ", model);
+
 	axios
 		.post(SHORT_URL, JSON.stringify(model), config)
 		.then((response) => {
 			console.log(response.data);
 		})
-		*/
 
 });
 
