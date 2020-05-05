@@ -1,0 +1,4 @@
+= Source code of Brian Ketelsen
+Brian Ketelsen <mail@bjk.fyi>
+
+This blog is develop using https://sapper.svelte.dev[Sapper,window=_blank].
