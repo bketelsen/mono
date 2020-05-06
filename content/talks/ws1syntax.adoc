@@ -1,0 +1,62 @@
+= Workshop: Syntax and Types
+:date: 2020/05/06 12:00:00
+include::common/prelude.adoc[]
+
+[background-color="#00A4EF"]
+== Hands On Workshop
+
+== Exercise One
+
+Install Go locally on your computer.
+
+* https://bjk.fyi/go-mac[https://bjk.fyi/go-mac]
+* https://bjk.fyi/go-linux[https://bjk.fyi/go-linux]
+* https://bjk.fyi/go-windows[https://bjk.fyi/go-windows]
+
+WSL(1/2): use Linux instructions.
+
+
+[background-color="#F25022"]
+== Success Criteria
+
+* Open a terminal or command prompt
+* type `go version`
+
+You should see output similar to this:
+----
+go version go1.14.2 linux/amd64
+----
+
+== Exercise Two
+
+Configure VS Code for Go
+
+https://bjk.fyi/vscode-go 
+
+[background-color="#F25022"]
+== Success Criteria
+
+* Open a terminal or command prompt
+* navigate to a directory where you can store code (~/code, c:\projects, etc)
+* `git clone https://github.com/bketelsen/gogrep`
+* `cd gogrep` 
+* `code .`
+
+
+[background-color="#F25022"]
+== Success Criteria
+
+Visual Studio Code should open and the file type should be "Go".
+Syntax highlighting should be enabled.
+Hovering over a function or type should provide information.
+
+
+== Optional: Debugging
+
+Configure Debugging in VS Code
+
+https://bjk.fyi/vscode-debug 
+
+
+
+include::common/thanks.adoc[]
