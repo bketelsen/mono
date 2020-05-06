@@ -5,6 +5,7 @@ include::common/prelude.adoc[]
 [background-color="#F25022"]
 include::common/about.adoc[]
 
+
 [transition=zoom, %notitle]
 [background-color="#00A4EF"]
 == !
@@ -54,47 +55,151 @@ string  string values
 bool    a boolean (true/false) value
 ----
 
-[transition=zoom, %notitle]
 [background-color="#00A4EF"]
 == Declaring and Assigning Values to Variables
 
+[background-color="#00A4EF"]
+== Without Initialization 
+
 ++++
-<pre><code data-sample='includes/syntaxtypes/includes/file.go#main'></code></pre>
+<pre><code data-sample='includes/syntaxtypes/includes/without/main.go#without'></code></pre>
 ++++
+
+[background-color="#00A4EF"]
+== With Initialization 
+
+++++
+<pre><code data-sample='includes/syntaxtypes/includes/with/main.go#with'></code></pre>
+++++
+
+[background-color="#00A4EF"]
+== Implicit Type
+
+++++
+<pre><code data-sample='includes/syntaxtypes/includes/implicit/main.go#implicit'></code></pre>
+++++
+
+[background-color="#00A4EF"]
+== !
+
+All three produce an integer that is indistinguishable from the others. With the implicit declaration, the compiler determines the type of the variable at compile time (not run time).
+
 
 == Zero Values in Go
 
+All builtin types have a zero value. Any allocated variable is usable even if it never has a value assigned.
+
+== Zero Values
+
+++++
+<pre><code data-sample='includes/syntaxtypes/includes/zero/main.go#zero'></code></pre>
+++++
+
+== !
+
+++++
+<pre><code data-sample='includes/syntaxtypes/includes/zero/main.go#zero'></code></pre>
+++++
+++++
+<pre><code data-sample='includes/syntaxtypes/includes/zero/main.go#output'></code></pre>
+++++
+
+== ! 
+
+|===
+| Declaration | Zero Value
+|var a int
+|int [0]
+|var b string
+|string []
+|var c float64
+|float64 [0]
+|var d bool
+|bool [false]
+|===
+
 == Constants
 
-== Playground Limitations
+Constants are variables that can't be modified at run time.
 
-The Go Playground is a web service that runs on golang.org's servers. The service receives a Go program, compiles, links, and runs the program inside a sandbox, then returns the output.
+== Constant String
+++++
+<pre><code data-sample='includes/syntaxtypes/includes/constants/main.go#string'></code></pre>
+++++
 
-== Playground Limitations
+== Constant Int
+++++
+<pre><code data-sample='includes/syntaxtypes/includes/constants/main.go#number'></code></pre>
+++++
 
-The playground can use most of the standard library, with some exceptions. The only communication a playground program has to the outside world is by writing to standard output and standard error.
+Implict type
 
-== Playground Limitations
+== Modification Error
 
-In the playground the time begins at 2009-11-10 23:00:00 UTC (determining the significance of this date is an exercise for the reader). This makes it easier to cache programs by giving them deterministic output.
+https://play.golang.org/p/QbMYFA0a4i 
 
-== Playground Limitations
+== Iota
 
-There are also limits on execution time and on CPU and memory usage.
+Sometimes you want sequential constants:
 
-== Playground Limitations
+++++
+<pre><code data-sample='includes/syntaxtypes/includes/ugly/main.go#ugly'></code></pre>
+++++
 
-Therefore: No file IO, nothing useful with time or dates, can't use any external packages.
+== Iota
 
-== Go Playground
+Iota: compile time helper
 
+++++
+<pre><code data-sample='includes/syntaxtypes/includes/iota/main.go#iota'></code></pre>
+++++
 
-Even with all those limitations Go developers love the Go Playground - it's a great place to share code, even if it can't run or compile. You can enter code then click the "SHARE" button which will give you a permanent URL to that code.
+== !
 
-Try it now with this link: 
+++++
+<pre><code data-sample='includes/syntaxtypes/includes/iota/main.go#iota'></code></pre>
+++++
 
-https://bjk.fyi/hello-microsoft
+----
+sunday = 0
+monday = 1
+----
 
+== Skipping a value
+
+Discard the first value with `_`
+++++
+<pre><code data-sample='includes/syntaxtypes/includes/iotaskip/main.go#skip'></code></pre>
+++++
+
+----
+sunday = 1
+monday = 2
+----
+
+== Structs
+
+Structs are unique types with zero or more fields.
+
+++++
+<pre><code data-sample='includes/syntaxtypes/includes/structs/main.go#struct'></code></pre>
+++++
+
+== Struct Declaration
+
+Declare with zero value:
+
+++++
+<pre><code data-sample='includes/syntaxtypes/includes/structs/main.go#zero'></code></pre>
+++++
+
+== Struct Declaration
+
+Declare with literal value:
+
+++++
+<pre><code data-sample='includes/syntaxtypes/includes/structs/main.go#literal'></code></pre>
+++++
 
 
 include::common/thanks.adoc[]

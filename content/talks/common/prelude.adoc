@@ -7,3 +7,6 @@
 :revealjs_height: 720
 :revealjs_plugins: content/config/rjs/revealjs-plugins.js
 :revealjs_plugins_configuration: content/config/rjs/revealjs-plugins-conf.js
+:icons: font
+:source-highlighter: highlightjs
+:highlightjsdir: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build
