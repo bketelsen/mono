@@ -3,41 +3,41 @@ const axios = require('axios');
 const https = require('https');
 const fs = require('fs');
 
-const path = require("path")
+const path = require("path");
 const Asciidoctor = require('asciidoctor');
 
 
 const SHORT_URL = 'https://bjk.fyi/redirects';
-const TARGET_BASE = 'https://brianketelsen.com/snack/'
-const BASE = process.env.GITHUB_WORKSPACE || '/home/bjk/projects/lifehub/mono'
+const TARGET_BASE = 'https://brianketelsen.com/snack/';
+const BASE = process.env.GITHUB_WORKSPACE || '/home/bjk/projects/lifehub/mono';
 
 
 const getAllFiles = function (dirPath, arrayOfFiles) {
-	var files = fs.readdirSync(dirPath)
+	var files = fs.readdirSync(dirPath);
 
-	arrayOfFiles = arrayOfFiles || []
+	arrayOfFiles = arrayOfFiles || [];
 
 	files.forEach(function (file) {
 		if (fs.statSync(dirPath + "/" + file).isDirectory()) {
 				// don't do anything here
 				console.log("Skipping subdirectories");
 		} else {
-			arrayOfFiles.push(path.join(dirPath, "/", file))
+			arrayOfFiles.push(path.join(dirPath, "/", file));
 		}
-	})
+	});
 
-	return arrayOfFiles
-}
+	return arrayOfFiles;
+};
 
 console.log(__dirname);
-var asciidoctor = Asciidoctor()
+var asciidoctor = Asciidoctor();
 const files = getAllFiles(BASE + '/content/snacks');
 console.log(files);
 files.forEach(function (file) {
 	// Do whatever you want to do with the file
 	console.log(file);
 	var doc = asciidoctor.loadFile(file);
-	console.log(doc.getDocumentTitle())
+	console.log(doc.getDocumentTitle());
 	const slug = doc.getAttributes().slug;
 	const model = {
 		"event": "entry.update",
@@ -46,7 +46,7 @@ files.forEach(function (file) {
 			"to": TARGET_BASE + slug,
 			"short": slug,
 		}
-	}
+	};
 	let config = {
 		headers: { 'Content-Type': 'application/json' }
 	};
@@ -56,7 +56,7 @@ files.forEach(function (file) {
 		.post(SHORT_URL, JSON.stringify(model), config)
 		.then((response) => {
 			console.log(response.data);
-		})
+		});
 
 });
 
