@@ -1,6 +1,6 @@
 == About Me
 
-* Cloud Advocate @ Microsoft Azure
-* Lead Open Source Engineering Team
-* Gophercon Organizer
-* Go In Action Author
+* Advocate: Microsoft Azure
+* Lead: Open Source Engineering Team
+* Organize: Gophercon
+* Author: Go In Action
