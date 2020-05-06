@@ -1,5 +1,5 @@
-import { getAssetFromKV  } from '@cloudflare/kv-asset-handler'
-
+import { getAssetFromKV  } from '@cloudflare/kv-asset-handler';
+import mime from 'mime';
 /**
  * The DEBUG flag will do two things that help during development:
  * 1. we will skip caching on the edge, which makes it easier to
