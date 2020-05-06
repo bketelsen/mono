@@ -1,25 +1,25 @@
-:includedir: ./common
 :revealjsdir:  https://cdn.jsdelivr.net/npm/reveal.js@3.9.2
-:date: 2020/04/14 12:00:00
+:date: 2020/05/05 12:00:00
 
-= Code Like the Go Team
+= Getting Started With Go
 
 [background-color="#F25022"]
-
-include::{includedir}/about.adoc[]
+include::common/about.adoc[]
 
 [transition=zoom, %notitle]
 [background-color="#00A4EF"]
-== Write Code Like the Go Team
-
-* how to organize your code into packages, and what those packages should contain  
-* code patterns and conventions that are prevalent in the standard library  
-* how to write your code to be more clear and understandable  
-* unwritten Go conventions that go beyond “go fmt” and make you look like a veteran Go contributor wrote it
+== Installing Go
 
 
+Download and install Go - always use the packages from golang.org - never use homebrew or apt-get, yum, etc. They're broken, or worse -- modified by someone upstream.
 
-[.category-title]
+== Installation Instructions
+
+* https://bjk.fyi/go-mac[https://bjk.fyi/go-mac]
+* https://bjk.fyi/go-linux[https://bjk.fyi/go-linux]
+* https://bjk.fyi/go-windows[https://bjk.fyi/go-windows]
+
+
 == Outline
 
 * Packages
@@ -374,4 +374,4 @@ if err != nil {
 Following these conventions will make your source code easier to read, easier to maintain, and easier for someone else to understand.
 
 
-include::{includedir}/thanks.adoc[]
+include::common/thanks.adoc[]

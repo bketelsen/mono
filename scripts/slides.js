@@ -21,7 +21,9 @@ const getAllFiles = function (dirPath, arrayOfFiles) {
 
 	files.forEach(function (file) {
 		if (fs.statSync(dirPath + "/" + file).isDirectory()) {
-			arrayOfFiles = getAllFiles(dirPath + "/" + file, arrayOfFiles)
+				//arrayOfFiles = getAllFiles(dirPath + "/" + file, arrayOfFiles)
+				// don't do anything here
+				console.log("Skipping subdirectories");
 		} else {
 			arrayOfFiles.push(path.join(dirPath, "/", file))
 		}
@@ -38,7 +40,7 @@ var list = [];
 files.forEach(function (file) {
 	// Do whatever you want to do with the file
 	console.log(file);
-	var options = { safe: 'false', backend: 'revealjs', mkdirs: true, to_dir: 'sites/brianketelsen.com/static/talks' }
+	var options = { safe: 'safe', backend: 'revealjs', mkdirs: true, to_dir: 'sites/brianketelsen.com/static/talks' }
 	asciidoctor.convertFile(file, options) // (1)
 	list.push(file.split(/[\\\/]/).pop());
 });

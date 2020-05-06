@@ -8,7 +8,7 @@ const Asciidoctor = require('asciidoctor');
 
 
 const SHORT_URL = 'https://bjk.fyi/redirects';
-const TARGET_BASE = 'https://brianketelsen.com/snacks/'
+const TARGET_BASE = 'https://brianketelsen.com/snack/'
 const BASE = process.env.GITHUB_WORKSPACE || '/home/bjk/projects/lifehub/mono'
 
 
