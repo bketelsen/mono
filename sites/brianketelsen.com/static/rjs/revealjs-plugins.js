@@ -1,0 +1,1 @@
+{ src: 'revealjs-plugins/reveal.js-toolbar/toolbar.js' }

@@ -1,12 +1,9 @@
-:includedir: ./common
-:revealjsdir:  https://cdn.jsdelivr.net/npm/reveal.js@3.9.2
-:date: 2020/04/14 12:00:00
-
 = Code Like the Go Team
+:date: 2020/04/14 12:00:00
+include::common/prelude.adoc[]
 
 [background-color="#F25022"]
-
-include::{includedir}/about.adoc[]
+include::common/about.adoc[]
 
 [transition=zoom, %notitle]
 [background-color="#00A4EF"]
@@ -374,4 +371,4 @@ if err != nil {
 Following these conventions will make your source code easier to read, easier to maintain, and easier for someone else to understand.
 
 
-include::{includedir}/thanks.adoc[]
+include::common/thanks.adoc[]

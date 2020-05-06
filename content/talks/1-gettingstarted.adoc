@@ -1,7 +1,6 @@
-:revealjsdir:  https://cdn.jsdelivr.net/npm/reveal.js@3.9.2
-:date: 2020/05/05 12:00:00
-
 = Getting Started With Go
+:date: 2020/05/05 12:00:00
+include::common/prelude.adoc[]
 
 [background-color="#F25022"]
 include::common/about.adoc[]

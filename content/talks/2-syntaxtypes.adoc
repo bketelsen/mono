@@ -1,0 +1,100 @@
+= Syntax and Types
+:date: 2020/05/06 12:00:00
+include::common/prelude.adoc[]
+
+[background-color="#F25022"]
+include::common/about.adoc[]
+
+[transition=zoom, %notitle]
+[background-color="#00A4EF"]
+== !
+
+Go has built-in types that aren't surprising.
+
+----
+uint8       unsigned  8-bit integers (0 to 255)
+uint16      unsigned 16-bit integers (0 to 65535)
+uint32      unsigned 32-bit integers (0 to 4294967295)
+uint64      unsigned 64-bit integers (0 to 18446744073709551615)
+int8        signed  8-bit integers (-128 to 127)
+int16       signed 16-bit integers (-32768 to 32767)
+int32       signed 32-bit integers (-2147483648 to 2147483647)
+int64       signed 64-bit integers (-9223372036854775808 to 9223372036854775807)
+float32     IEEE-754 32-bit floating-point numbers
+float64     IEEE-754 64-bit floating-point numbers
+complex64   complex numbers with float32 real and imaginary parts
+complex128  complex numbers with float64 real and imaginary parts
+byte        alias for uint8
+rune        alias for int32
+----
+
+
+== Implementation specific types
+
+* 64 or 32 bit depending on platform
+----
+uint     either 32 or 64 bits
+int      same size as uint
+uintptr  unsigned integer (size of pointer)
+----
+
+[background-color="#F25022"]
+== Warning
+
+WARNING: On 64 bit system you might think that `int` and `int64` are the same type.
+
+They hold the same data, but are distinct types.
+
+== Beyond Numeric Types
+
+string and bool
+
+----
+string  string values
+bool    a boolean (true/false) value
+----
+
+[transition=zoom, %notitle]
+[background-color="#00A4EF"]
+== Declaring and Assigning Values to Variables
+
+++++
+<pre><code data-sample='includes/syntaxtypes/includes/file.go#main'></code></pre>
+++++
+
+== Zero Values in Go
+
+== Constants
+
+== Playground Limitations
+
+The Go Playground is a web service that runs on golang.org's servers. The service receives a Go program, compiles, links, and runs the program inside a sandbox, then returns the output.
+
+== Playground Limitations
+
+The playground can use most of the standard library, with some exceptions. The only communication a playground program has to the outside world is by writing to standard output and standard error.
+
+== Playground Limitations
+
+In the playground the time begins at 2009-11-10 23:00:00 UTC (determining the significance of this date is an exercise for the reader). This makes it easier to cache programs by giving them deterministic output.
+
+== Playground Limitations
+
+There are also limits on execution time and on CPU and memory usage.
+
+== Playground Limitations
+
+Therefore: No file IO, nothing useful with time or dates, can't use any external packages.
+
+== Go Playground
+
+
+Even with all those limitations Go developers love the Go Playground - it's a great place to share code, even if it can't run or compile. You can enter code then click the "SHARE" button which will give you a permanent URL to that code.
+
+Try it now with this link: 
+
+https://bjk.fyi/hello-microsoft
+
+
+
+include::common/thanks.adoc[]

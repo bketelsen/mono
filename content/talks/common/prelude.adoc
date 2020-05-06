@@ -1,0 +1,9 @@
+:revealjsdir:  https://cdn.jsdelivr.net/npm/reveal.js@3.9.2
+:date: 2020/05/06 12:00:00
+:revealjs_hash: true
+:revealjs_theme: white
+:revealjs_history: true
+:revealjs_width: 1280
+:revealjs_height: 720
+:revealjs_plugins: content/talks/rjs/revealjs-plugins.js
+:revealjs_plugins_configuration: content/talks/rjs/revealjs-plugins-conf.js

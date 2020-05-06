@@ -13,7 +13,6 @@ const Asciidoctor = require('asciidoctor');
 
 const BASE = process.env.GITHUB_WORKSPACE || '/home/bjk/projects/lifehub/mono'
 
-
 const getAllFiles = function (dirPath, arrayOfFiles) {
 	var files = fs.readdirSync(dirPath)
 
@@ -50,3 +49,12 @@ list.forEach(function(entry) {
 	console.log(link_entry);
 
 });
+
+
+const shell = require('child_process').execSync ; 
+
+const src= BASE+'/content/talks/includes';
+const dist= BASE+'/sites/brianketelsen.com/static/talks/includes';
+
+shell(`mkdir -p ${dist}`);
+shell(`cp -r ${src}/* ${dist}`);
