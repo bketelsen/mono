@@ -31,6 +31,16 @@ const getAllFiles = function (dirPath, arrayOfFiles) {
 	return arrayOfFiles
 }
 
+
+const shell = require('child_process').execSync ; 
+
+const src= BASE+'/content/talks/includes';
+const dist= BASE+'/sites/brianketelsen.com/static/talks/includes';
+
+shell(`mkdir -p ${dist}`);
+shell(`cp -r ${src}/* ${dist}`);
+
+
 console.log(__dirname);
 var asciidoctor = Asciidoctor()
 const files = getAllFiles(BASE + '/content/talks');
@@ -50,11 +60,3 @@ list.forEach(function(entry) {
 
 });
 
-
-const shell = require('child_process').execSync ; 
-
-const src= BASE+'/content/talks/includes';
-const dist= BASE+'/sites/brianketelsen.com/static/talks/includes';
-
-shell(`mkdir -p ${dist}`);
-shell(`cp -r ${src}/* ${dist}`);
