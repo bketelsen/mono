@@ -58,5 +58,17 @@ Configure Debugging in VS Code
 https://bjk.fyi/vscode-debug 
 
 
+== Exercise Three
+
+Create a command line application that instantiates a struct and prints the members of the struct.
+
+Use this starter code:  https://bjk.fyi/ws1-starter
+
+== Success Criteria
+
+Running your application should output one or more of the members of the struct you created.
+
+One possible solution:  https://bjk.fyi/ws1-solution 
+
 
 include::common/thanks.adoc[]
