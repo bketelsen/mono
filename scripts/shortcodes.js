@@ -19,7 +19,8 @@ const getAllFiles = function (dirPath, arrayOfFiles) {
 
 	files.forEach(function (file) {
 		if (fs.statSync(dirPath + "/" + file).isDirectory()) {
-			arrayOfFiles = getAllFiles(dirPath + "/" + file, arrayOfFiles)
+				// don't do anything here
+				console.log("Skipping subdirectories");
 		} else {
 			arrayOfFiles.push(path.join(dirPath, "/", file))
 		}

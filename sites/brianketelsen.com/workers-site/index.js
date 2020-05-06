@@ -78,3 +78,30 @@ function handlePrefix(prefix) {
     return new Request(url.toString(), defaultAssetKey)
   }
 }
+
+/**
+ * maps the path of incoming request to the request pathKey to look up
+ * in bucket and in cache
+ * e.g.  for a path '/' returns '/index.html' which serves
+ * the content of bucket/index.html
+ * @param {Request} request incoming request
+ */
+const mapRequestToAsset = (request) => {
+  const parsedUrl = new URL(request.url)
+  let pathname = parsedUrl.pathname
+
+  if (pathname.endsWith('/')) {
+    // If path looks like a directory append index.html
+    // e.g. If path is /about/ -> /about/index.html
+    pathname = pathname.concat('index.html')
+  } else if (!mime.getType(pathname)) {
+    // If path doesn't look like valid content
+    //  e.g. /about.me ->  /about.me/index.html
+    if (!pathname.endsWith('.go')) {
+      pathname = pathname.concat('/index.html')
+    }
+  }
+
+  parsedUrl.pathname = pathname
+  return new Request(parsedUrl.toString(), request)
+}
