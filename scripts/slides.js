@@ -1,25 +1,22 @@
 require('dotenv/config');
-const axios = require('axios');
-const https = require('https');
 const fs = require('fs');
 
 var copydir = require('copy-dir');
 
-var asciidoctor = require('@asciidoctor/core')()
-var asciidoctorRevealjs = require('@asciidoctor/reveal.js')
-asciidoctorRevealjs.register()
+var asciidoctorRevealjs = require('@asciidoctor/reveal.js');
+asciidoctorRevealjs.register();
 
 
-const path = require("path")
+const path = require("path");
 const Asciidoctor = require('asciidoctor');
 
 
-const BASE = process.env.GITHUB_WORKSPACE || '/home/bjk/projects/lifehub/mono'
+const BASE = process.env.GITHUB_WORKSPACE || '/home/bjk/projects/lifehub/mono';
 
 const getAllFiles = function (dirPath, arrayOfFiles) {
-	var files = fs.readdirSync(dirPath)
+	var files = fs.readdirSync(dirPath);
 
-	arrayOfFiles = arrayOfFiles || []
+	arrayOfFiles = arrayOfFiles || [];
 
 	files.forEach(function (file) {
 		if (fs.statSync(dirPath + "/" + file).isDirectory()) {
@@ -27,12 +24,12 @@ const getAllFiles = function (dirPath, arrayOfFiles) {
 				// don't do anything here
 				console.log("Skipping subdirectories");
 		} else {
-			arrayOfFiles.push(path.join(dirPath, "/", file))
+			arrayOfFiles.push(path.join(dirPath, "/", file));
 		}
-	})
+	});
 
-	return arrayOfFiles
-}
+	return arrayOfFiles;
+};
 
 
 
@@ -46,15 +43,15 @@ copydir.sync(src, dist, {
 });
 
 console.log(__dirname);
-var asciidoctor = Asciidoctor()
+var adoctor = Asciidoctor();
 const files = getAllFiles(BASE + '/content/talks');
 console.log(files);
 var list = [];
 files.forEach(function (file) {
 	// Do whatever you want to do with the file
 	console.log(file);
-	var options = { safe: 'safe', backend: 'revealjs', mkdirs: true, to_dir: 'sites/brianketelsen.com/static/talks' }
-	asciidoctor.convertFile(file, options) // (1)
+	var options = { safe: 'safe', backend: 'revealjs', mkdirs: true, to_dir: 'sites/brianketelsen.com/static/talks' };
+	adoctor.convertFile(file, options); // (1)
 	list.push(file.split(/[\\\/]/).pop());
 });
 
