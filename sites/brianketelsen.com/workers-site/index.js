@@ -41,6 +41,7 @@ async function handleEvent(event) {
         bypassCache: true,
       }
     }
+    options.mapRequestToAsset = mapRequestToAsset;
     return await getAssetFromKV(event, options)
   } catch (e) {
     // if an error is thrown try to serve the asset at 404.html
