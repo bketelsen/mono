@@ -6,6 +6,8 @@
 
 [background-color="#F25022"]
 
+include::{includedir}/about.adoc[]
+
 [transition=zoom, %notitle]
 [background-color="#00A4EF"]
 == Write Code Like the Go Team
@@ -371,3 +373,5 @@ if err != nil {
 
 Following these conventions will make your source code easier to read, easier to maintain, and easier for someone else to understand.
 
+
+include::{includedir}/thanks.adoc[]
