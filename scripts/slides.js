@@ -2,6 +2,9 @@ require('dotenv/config');
 const axios = require('axios');
 const https = require('https');
 const fs = require('fs');
+
+var copydir = require('copy-dir');
+
 var asciidoctor = require('@asciidoctor/core')()
 var asciidoctorRevealjs = require('@asciidoctor/reveal.js')
 asciidoctorRevealjs.register()
@@ -32,14 +35,15 @@ const getAllFiles = function (dirPath, arrayOfFiles) {
 }
 
 
-const shell = require('child_process').execSync ; 
 
 const src= BASE+'/content/talks/includes';
 const dist= BASE+'/sites/brianketelsen.com/static/talks/includes';
 
-shell(`mkdir -p ${dist}`);
-shell(`cp -r ${src}/* ${dist}`);
-
+copydir.sync(src, dist, {
+  utimes: true,  // keep add time and modify time
+  mode: true,    // keep file mode
+  cover: true    // cover file when exists, default is true
+});
 
 console.log(__dirname);
 var asciidoctor = Asciidoctor()
