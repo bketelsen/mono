@@ -74,8 +74,6 @@ Therefore: No file IO, nothing useful with time or dates, can't use any external
 
 Even with all those limitations Go developers love the Go Playground - it's a great place to share code, even if it can't run or compile. You can enter code then click the "SHARE" button which will give you a permanent URL to that code.
 
-For most of today's class we'll be using the Go Playground.
-
 Try it now with this link: 
 
 https://bjk.fyi/hello-microsoft
