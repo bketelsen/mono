@@ -1,12 +1,10 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: Node.js CI
+name: Build and Deploy
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
     branches: [ master ]
 
 jobs:
@@ -20,6 +18,7 @@ jobs:
         node-version: 12
     - run: cd $GITHUB_WORKSPACE/scripts && npm i && node shortcodes.js
     - run: cd $GITHUB_WORKSPACE/scripts && npm i && node shorttalks.js
+    - run: cd $GITHUB_WORKSPACE/scripts && npm i && node short.js
     - run: cd $GITHUB_WORKSPACE && node scripts/slides.js
     - run: cd sites/brianketelsen.com && yarn
     - run: cd sites/brianketelsen.com && yarn export

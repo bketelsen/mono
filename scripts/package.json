@@ -12,6 +12,7 @@
     "asciidoctor": "^2.2.0",
     "axios": "^0.19.2",
     "copy-dir": "^1.2.0",
+    "csv-parser": "^2.3.2",
     "dotenv": "^8.2.0",
     "js-yaml": "^3.13.1",
     "url-slug": "^2.3.1"
