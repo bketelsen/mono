@@ -91,7 +91,7 @@ img {
 }
 
 hr {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(253, 99, 120, .8), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(107, 135, 232, .8), rgba(0, 0, 0, 0));
   border: 0;
   height: 2px;
   margin: 40px auto;
