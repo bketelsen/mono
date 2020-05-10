@@ -10,7 +10,7 @@ const readingTime = require('reading-time')
 require('prismjs/components/prism-jsx.min')
 
 const cwd = process.cwd()
-const POSTS_DIR = path.join(cwd, 'src/routes/blog/posts/')
+const POSTS_DIR = path.join(cwd, 'src/routes/projects/projects/')
 const EXCERPT_SEPARATOR = '<!-- more -->'
 const renderer = new marked.Renderer()
 const linkRenderer = renderer.link;
