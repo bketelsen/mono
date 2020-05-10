@@ -5,7 +5,9 @@ image: /uploads/27a382860fef4a198f01f5a6aba24d57.jpg
 
 ---
 
-I spent all of 5 minutes configuring [Caddy](https://caddyserver.com) to automatically pull content from github, post-process it with [hugo](http://gohugo.io) and serve it up with fresh SSL/TLS certificates from Let's Encrypt. <!--more-->
+I spent all of 5 minutes configuring [Caddy](https://caddyserver.com) to automatically pull content from github, post-process it with [hugo](http://gohugo.io) and serve it up with fresh SSL/TLS certificates from Let's Encrypt. 
+
+<!-- more -->
 
 When you think about it, that's pretty damned amazing.  Caddy already made web serving easy.  It powers everything I do now: gopheracademy.com, gophercon.com and a dozen more.  Add hugo to the mix and you have a really powerful publishing platform that is fully automated with just a git push.  I really love that Caddy polls my github repository and publishes new content.  It's a zero-overhead proposition to publish a new post.
 

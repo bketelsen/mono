@@ -7,6 +7,8 @@ image: /uploads/ef1b9bd086524852a2b77e2dd61be021.jpg
 
 In this first post of (likely) a multi-part series I'm going to discuss how I am using machine learning, AI, and good old-fashioned elbow grease to make sense of the 3000 files in my `~/Documents/Unfiled` directory.
 
+<!-- more -->
+
 ### The Problem Statement
 
 There are several contributing factors to the problem.  Let's start with the obvious ones:

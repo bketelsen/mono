@@ -5,10 +5,11 @@ image: /uploads/dcfd43df952b4874ace2f154c45cc82f.jpg
 
 ---
 
+I've long used macOS or Linux when I make my Open Source contributions, but I think that the time is right to try Windows as a full-time development environment.  If you want to jump on board, this article series is for you!
+
+<!-- more -->
 
 ## A Guide for Open Source Developers Moving To Windows
-
-I've long used macOS or Linux when I make my Open Source contributions, but I think that the time is right to try Windows as a full-time development environment.  If you want to jump on board, this article series is for you!
 
 In this first article we'll start with the installation and configuration of the Windows Subsystem for Linux, and get you to the point where you can clone and compile/run your OSS projects.
 

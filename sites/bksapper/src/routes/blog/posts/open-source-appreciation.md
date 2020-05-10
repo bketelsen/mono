@@ -8,6 +8,8 @@ image: /uploads/a307fcab3b2f48629d37a429bbba05d3.jpg
 
 I've never been shy about sharing my love for Open Source.  I love creating things, and I love sharing them with others.  One of my particular joys with Open Source Software, however, is finding new projects that excite me.
 
+<!-- more -->
+
 I generally get excited about new OSS projects for two reasons:
 
 1. It does something I want or need to do

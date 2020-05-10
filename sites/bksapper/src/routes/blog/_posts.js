@@ -42,14 +42,14 @@ const posts = fs.readdirSync(POSTS_DIR)
   .map(fileName => {
     const fileMd = fs.readFileSync(path.join(POSTS_DIR, fileName), 'utf8')
     const { data, content: rawContent } = matter(fileMd)
-    const { title, date } = data
+    const { title, date , image} = data
     const slug = fileName.split('.')[0]
     let content = rawContent
     let excerpt = ''
 
     if (rawContent.indexOf(EXCERPT_SEPARATOR) !== -1) {
       const splittedContent = rawContent.split(EXCERPT_SEPARATOR)
-      excerpt = splittedContent[0]
+      excerpt = marked(splittedContent[0])
       content = splittedContent[1]
     }
 
@@ -64,6 +64,7 @@ const posts = fs.readdirSync(POSTS_DIR)
       html,
       date,
       excerpt,
+      image,
       printDate,
       printReadingTime,
     }

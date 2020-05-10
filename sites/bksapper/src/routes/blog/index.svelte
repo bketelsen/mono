@@ -15,6 +15,7 @@
   .post-item-footer {
     font-family: Rubik, sans-serif;
     font-weight: 700;
+    padding-bottom: 0.5em;
   }
 
   .post-item-date {
@@ -43,7 +44,10 @@
       <h2>
         <a rel='prefetch' href='blog/{post.slug}'>{post.title}</a>
       </h2>
-      <p>{post.excerpt}</p>
+      {#if post.image}
+        <img src={post.image} alt={post.title} />
+      {/if}
+      <p>{@html post.excerpt}</p>
       <div class="post-item-footer">
         <span class="post-item-date">— {post.printDate}</span>
       </div>

@@ -6,7 +6,7 @@ image: /uploads/af6667687c5c4ace86bf242fdb3d1e8c.png
 ---
 
 
-It's no secret that I'm resistant to learning Javascript and frontend development.  I learned HTML back before CSS was even a thing, and even Javascript came long after I started doing web development.  When I look at modern web development I shudder; the ecosystem is so confusing for someone who has been out of touch as long as I have.  Node, webpack, yarn, npm, frameworks, UMD, AMD, arghhh!
+It's no secret that I'm resistant to learning Javascript and frontend development.  I learned HTML back before CSS was even a thing, and even Javascript came long after I started doing web development.  When I look at modern web development I shudder; the ecosystem is so confusing for someone who has been out of touch as long as I have.  Node, webpack, yarn, npm, frameworks, UMD, AMD, arghhh! <!-- more -->
 
 I've been watching Web Assembly with anticipation for quite some time, with the hope that it would allow me to write web applications without the typical Javascript build process.
 

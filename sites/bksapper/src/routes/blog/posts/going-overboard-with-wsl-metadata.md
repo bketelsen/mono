@@ -5,9 +5,11 @@ image: /uploads/78ecc62784e840cea188a734caae4cc7.PNG
 
 ---
 
+It all started with a simple tweet from [@nunixtech](https://twitter.com/nunixtech):
+
+<!--more-->
 
 ### Nerd Sniped
-It all started with a simple tweet from [@nunixtech](https://twitter.com/nunixtech):
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/VirtualScooley?ref_src=twsrc%5Etfw">@VirtualScooley</a> <a href="https://twitter.com/richturn_ms?ref_src=twsrc%5Etfw">@richturn_ms</a> <a href="https://twitter.com/tara_msft?ref_src=twsrc%5Etfw">@tara_msft</a> <a href="https://twitter.com/CraigWilhite?ref_src=twsrc%5Etfw">@CraigWilhite</a> <a href="https://twitter.com/benhillis?ref_src=twsrc%5Etfw">@benhillis</a> In order to Thank You for the new Distros, here is a small hack from your &quot;favorite&quot; WSLCorsair. the mount options might need some review though. <a href="https://twitter.com/bketelsen?ref_src=twsrc%5Etfw">@bketelsen</a> this might help you (do I enter the HAT gift list? ?) <a href="https://t.co/7ouUX5Jm3h">pic.twitter.com/7ouUX5Jm3h</a></p>&mdash; Nuno do Carmo (@nunixtech) <a href="https://twitter.com/nunixtech/status/971145708018466816?ref_src=twsrc%5Etfw">March 6, 2018</a></blockquote>
 

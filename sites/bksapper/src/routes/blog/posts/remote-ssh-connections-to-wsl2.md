@@ -5,12 +5,11 @@ image: /uploads/d98ef5c6cff646dcb140dae212aacbba.jpg
 
 ---
 
-
-## Remote Access for New Windows Users
-
 In this article I share my learnings on remotely accessing your Windows 10 computer. My motivation was to determine efficient ways to access both the Windows environment, and the WSL2 development environment from another computer.
 
-Find other articles in this series [with this link](/tags/30daywslchallenge/).
+<!-- more -->
+
+## Remote Access for New Windows Users
 
 For emphasis in this article, many of the screenshots are taken from my iPad Pro accessing my desktop computer running Windows 10 and WSL2.
 

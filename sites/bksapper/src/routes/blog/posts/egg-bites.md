@@ -8,6 +8,8 @@ image: /uploads/b90d805ebf904dd09ff2116f5341820c.jpeg
 
 This post is a change from the usual technical content.  I made my own Egg Bites this morning, inspired by the delicious ones I like to get at Starbucks.
 
+<!-- more -->
+
 ### Recipe
 
 Prep: 

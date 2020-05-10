@@ -8,6 +8,8 @@ image: /uploads/d44eca7292c345b9bdbf45055af291bf.jpeg
 
 Quick post to write up how I built a retractable green screen mount on my wall for not much money.
 
+<!-- more -->
+
 I bought a mounting bracket [from Amazon](https://www.amazon.com/gp/product/B002P32990/ref=oh_aui_detailpage_o02_s01?ie=UTF8&psc=1) that was intended for paper photograph backrounds like this.  I didn't want paper, I wanted muslin for it's superior light disbursement and durability.  I already had a 9' by 15' muslin green screen backdrop similar to [this one](https://www.amazon.com/gp/product/B017WNJS3M/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1).
 
 When the mounting bracket arrived, it said to use a metal rod with a 2" (two inch) inner diameter.  I didn't want to use anything that heavy, so I went to Lowes and found PVC pipe with 2" inner diameter and bought a 10 foot section.

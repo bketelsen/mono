@@ -8,6 +8,8 @@ image: /uploads/32f178dad7c94e5bb78194a83bd316db.png
 
 I want to document a setup that I've found that works really well for me using Windows 10 and [Windows Subsystem for Linux](https://blogs.msdn.microsoft.com/wsl/2016/04/22/windows-subsystem-for-linux-overview/) for general development.  Before we dive into any specifics, though, I want to provide some background and explain my objectives which will help to frame the decisions I've made and the trade-offs chosen to reach a more ideal environment.
 
+<!-- more -->
+
 ### Objective
 My objective is to build a development environment that is comfortable for Open Source development with a target of mostly Linux servers.  I develop primarily in [Go](https://golang.org) but infrequently do some Javascript and HTML work too.  Prior to this setup, I have been using a Linux dev machine either directly or remotely over SSH.  My ultimate goal is to replicate a Linux development environment without having to use a separate machine.   
 

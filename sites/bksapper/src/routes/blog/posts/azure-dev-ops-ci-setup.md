@@ -7,6 +7,8 @@ image: /uploads/6655acdb14ab4463939ddf47d92868d4.jpg
 
 Microsoft just announced a killer continuous integration setup for Github, and I was really anxious to give it a try.  This post documents my setup for an [Elixir/Phoenix application](https://github.com/gophersnacks/site) I'm building with [Aaron Schlesinger](https://twitter.com/arschles).
 
+<!-- more -->
+
 ### Set Up Azure Pipelines
 
 Step one is to head to the [Github Marketplace](https://github.com/marketplace/azure-pipelines) and install the Azure Pipelines service.
