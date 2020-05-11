@@ -24,11 +24,19 @@
 <div class="container">
   <h1>About</h1>
   <figure>
-    <img src='rsz_florian-klauer-489-unsplash.jpg' alt='Image of a vintage typewriter.'>
-    <figcaption>Photo by <a href="https://unsplash.com/@florianklauer" target="_blank">Florian Klauer</a> on Unsplash</figcaption>
+    <img src='icons/undraw_barbecue_3x93.svg' alt='illustration of a person grilling'>
   </figure>
   <p>I'm a cloud developer advocate working for Azure.</p>
   <p>I've been programming since modems had acoustic couplers. I've done backend, frontend, database administration, system administration, data warehouse consulting, and a dozen other interesting jobs.</p>
   <p>I've had the pleasure of working for big corporations like Microsoft, IBM, and MCI/Worldcom as well as tiny startups.</p>
   <p>My favorite thing to do is connect things that were previously unconnected. I love to explore and ask "what if?".</p>
+  <p>Find me:</p>
+  <div>
+     <ul>
+      <li><a href="https://twitter.com/bketelsen">Twitter</a></li>
+      <li><a href="https://youtube.com/bketelsen">Youtube</a></li>
+      <li><a href="https://twitch.tv/bketelsen">Twitch</a></li>
+      <li><a href="https://github.com/bketelsen">Github</a></li>
+      </ul>
+   </div>
 </div>
