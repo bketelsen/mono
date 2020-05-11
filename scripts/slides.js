@@ -37,7 +37,7 @@ const getAllFiles = function (dirPath, arrayOfFiles) {
 
 
 const src= BASE+'/content/talks/includes';
-const dist= BASE+'/sites/brianketelsen.com/static/talks/includes';
+const dist= BASE+'/sites/bksapper/static/talk/includes';
 
 copydir.sync(src, dist, {
   utimes: true,  // keep add time and modify time
@@ -53,7 +53,7 @@ var list = [];
 files.forEach(function (file) {
 	// Do whatever you want to do with the file
 	console.log(file);
-	var options = { safe: 'safe', backend: 'revealjs', mkdirs: true, to_dir: 'sites/brianketelsen.com/static/talks' }
+	var options = { safe: 'safe', backend: 'revealjs', mkdirs: true, to_dir: 'sites/bksapper/static/talk' }
 	asciidoctor.convertFile(file, options) // (1)
 	list.push(file.split(/[\\\/]/).pop());
 });

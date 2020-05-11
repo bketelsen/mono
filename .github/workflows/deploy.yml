@@ -19,7 +19,7 @@ jobs:
     - run: cd $GITHUB_WORKSPACE/scripts && npm i && node shortcodes.js
     - run: cd $GITHUB_WORKSPACE/scripts && npm i && node shorttalks.js
     - run: cd $GITHUB_WORKSPACE/scripts && npm i && node short.js
-    - run: cd $GITHUB_WORKSPACE && node scripts/slides.js
+    - run: cd $GITHUB_WORKSPACE && node scripts/slides2.js
     - run: cd sites/brianketelsen.com && yarn
     - run: cd sites/brianketelsen.com && yarn export
     - uses: cloudflare/wrangler-action@1.1.0

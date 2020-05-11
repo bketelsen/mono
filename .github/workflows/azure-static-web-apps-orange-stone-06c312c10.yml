@@ -20,6 +20,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12
+
+    - run: cd $GITHUB_WORKSPACE/scripts && npm i 
+    - run: cd $GITHUB_WORKSPACE && node scripts/slides2.js
     - run: cd sites/bksapper && yarn
     - run: cd sites/bksapper && yarn export
     - name: Build And Deploy

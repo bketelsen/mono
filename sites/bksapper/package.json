@@ -13,8 +13,10 @@
     "youtube": "node youtube.js"
   },
   "dependencies": {
+    "@asciidoctor/reveal.js": "^4.0.1",
     "@rollup/pluginutils": "^3.0.10",
     "@types/dotenv": "^8.2.0",
+    "asciidoctor": "^2.0",
     "axios": "^0.19.2",
     "compression": "^1.7.1",
     "date-fns": "^1.30.1",

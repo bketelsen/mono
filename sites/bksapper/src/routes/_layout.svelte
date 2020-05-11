@@ -2,8 +2,12 @@
 	import Footer from "../components/Footer.svelte"
 					
   import Header from '../components/Header.svelte';
+  import Sidebar from '../components/Sidebar.svelte';
 
   export let segment;
+
+let sidebar_show = true;
+
 </script>
 
 <style>
