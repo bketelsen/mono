@@ -24,7 +24,7 @@
 <div class="container">
   <h1>Colophon</h1>
   <figure>
-    <img src='rsz_florian-klauer-489-unsplash.jpg' alt='Image of a vintage typewriter.'>
+    <img src='rsz_florian-klauer-489-unsplash.jpg' alt='Vintage typewriter.'>
     <figcaption>Photo by <a href="https://unsplash.com/@florianklauer" target="_blank">Florian Klauer</a> on Unsplash</figcaption>
   </figure>
     <p>Illustration thanks to <a href="https://undraw.co" target="_blank">Undraw</a></p>
