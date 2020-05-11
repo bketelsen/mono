@@ -8,6 +8,9 @@ import config from 'sapper/config/rollup.js';
 import marked from 'marked';
 import pkg from './package.json';
 
+import glob from 'rollup-plugin-glob';
+import asciidoc from 'rollup-plugin-asciidoc';
+
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
 const legacy = !!process.env.SAPPER_LEGACY_BUILD;
@@ -71,6 +74,7 @@ export default {
 		input: config.server.input(),
 		output: config.server.output(),
 		plugins: [
+			glob(),
 			replace({
 				'process.browser': false,
 				'process.env.NODE_ENV': JSON.stringify(mode)
@@ -81,7 +85,9 @@ export default {
 			}),
 			resolve(),
 			commonjs(),
-			markdown()
+			markdown(),
+			asciidoc()
+
 		],
 		external: Object.keys(pkg.dependencies).concat(
 			require('module').builtinModules || Object.keys(process.binding('natives'))

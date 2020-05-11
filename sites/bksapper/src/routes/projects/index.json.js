@@ -1,18 +1,10 @@
-import projects from './_projects.js';
-
-const contents = JSON.stringify(projects.map(project => {
-  return {
-    title: project.title,
-    slug: project.slug,
-    excerpt: project.excerpt,
-    printDate: project.printDate,
-  };
-}));
+import { store } from "../../projectstore";
 
 export function get(req, res) {
   res.writeHead(200, {
     'Content-Type': 'application/json'
   });
-
-  res.end(contents);
+  var posts = Array.from(store._posts.values());
+  const sortedPosts = posts.sort((a,b) => new Date(b.date) - new Date(a.date));
+  res.end(JSON.stringify(posts));
 }

@@ -14,7 +14,8 @@
 </script>
 
 <script>
-  import Bio from '../../components/Bio.svelte'
+  import Bio from '../../components/Bio.svelte';
+  import HeaderImage from '../../components/HeaderImage.svelte';
   export let post
 </script>
 
@@ -45,12 +46,16 @@
 </svelte:head>
 
 <header>
-  <p>{post.printDate} ~ {post.printReadingTime}</p>
+  <p>{post.printDate} ~ {post.readingTime}</p>
   <h1>{post.title}</h1>
   <hr />
 </header>
 <div class="container">
   <article class="content">
+
+{#if post.image_url}
+<HeaderImage image_url={post.image_url} image_credit={post.image_credit} />
+{/if}
     {@html post.html}
   </article>
   <hr />

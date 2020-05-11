@@ -1,5 +1,5 @@
 = Arrested DevOps Appearance on Krustlet 
-:date: 2020/04/14 12:00:00
+:date: 2020/04/14
 :draft: false 
 :description: I had a great time on the Arrested DevOps podcast with Bridget Kromhout.
 :keywords: Rust, Podcasts

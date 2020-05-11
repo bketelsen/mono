@@ -3,9 +3,9 @@
 :draft: false 
 :description: I'm making some changes in my life.
 :slug: career-2-0-go-training-videos-speaking 
-:image:   url: images/uploads/433d649028bd472d857765023239ac55.jpg   
-:credit: 'Career 2.0 - Go Training, Videos, Speaking'   
-:credit_url: '#' 
+:image_url: images/uploads/433d649028bd472d857765023239ac55.jpg   
+:image_credit: 'Career 2.0 - Go Training, Videos, Speaking'   
+:image_credit_url: '#' 
 
 A week ago I decided to start a new journey.
 While I truly enjoyed working with Blake Mizerany and the team at http://backplane.io[backplane], I felt I really had a passion for training and growing the Go community and I decided I owe it to myself to pursue it.

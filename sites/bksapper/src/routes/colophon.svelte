@@ -28,5 +28,5 @@
     <figcaption>Photo by <a href="https://unsplash.com/@florianklauer" target="_blank">Florian Klauer</a> on Unsplash</figcaption>
   </figure>
     <p>Illustration thanks to <a href="https://undraw.co" target="_blank">Undraw</a></p>
-      <p>Template by <a href="https://www.twitter.com/Charca" target="_blank">Maxi Ferreira</a>.</p>
+    <p>Template inspired by <a href="https://www.twitter.com/Charca" target="_blank">Maxi Ferreira</a>.</p>
 </div>

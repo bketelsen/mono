@@ -43,7 +43,7 @@
       <h2>
         <a rel='prefetch' href='projects/{project.slug}'>{project.title}</a>
       </h2>
-      <p>{project.excerpt}</p>
+      <p>{project.description}</p>
       <div class="post-item-footer">
         <span class="post-item-date">— Added {project.printDate}</span>
       </div>

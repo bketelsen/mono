@@ -1,8 +1,11 @@
 <script context="module">
+
   export function preload({ params, query }) {
-    return this.fetch(`blog.json`).then(r => r.json()).then(posts => {
-      return { posts };
-    });
+    return this.fetch(`blog.json`)
+      .then((r) => r.json())
+      .then((posts) => {
+        return { posts };
+      });
   }
 </script>
 
@@ -19,7 +22,7 @@
   }
 
   .post-item-date {
-    color: #AAA;
+    color: #aaa;
     text-align: left;
     text-transform: uppercase;
     margin-right: 16px;
@@ -42,14 +45,16 @@
     {/if}
     <div class="post-item">
       <h2>
-        <a rel='prefetch' href='blog/{post.slug}'>{post.title}</a>
+        <a rel="prefetch" href="blog/{post.slug}">{post.title}</a>
       </h2>
-      {#if post.image}
-        <img src={post.image} alt={post.title} />
+      {#if post.image_url}
+        <img src={post.image_url} alt={post.title} />
       {/if}
-      <p>{@html post.excerpt}</p>
+      <p>
+        {@html post.description}
+      </p>
       <div class="post-item-footer">
-        <span class="post-item-date">— {post.printDate}</span>
+        <span class="post-item-date">— {post.date}</span>
       </div>
     </div>
   {/each}
