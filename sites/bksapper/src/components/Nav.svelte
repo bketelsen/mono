@@ -4,13 +4,11 @@
 
 <style>
   nav {
-    align-items: flex-end;
-    display: flex;
-    flex: 1;
     font-family: Rubik, sans-serif;
     font-weight: 700;
-    justify-content: flex-end;
+   /* justify-content: flex-end; */
     text-transform: uppercase;
+    overflow: hidden;
   }
 
   a {
@@ -46,6 +44,22 @@
   .selected::before {
     background: #6B87E8;
   }
+
+ /* Style the topnav links */
+nav a {
+  float: left;
+  display: block;
+ /* color: #f2f2f2; */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+} 
+  @media screen and (max-width: 600px) {
+  nav a {
+    float: none;
+    width: 100%;
+  }
+}
 </style>
 
 <nav>
