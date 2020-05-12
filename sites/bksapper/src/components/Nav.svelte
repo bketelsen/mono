@@ -65,8 +65,9 @@ nav a {
 <nav>
   <a class='{segment === undefined ? "selected" : ""}' href='.'>home</a>
   <a class='{segment === "about" ? "selected" : ""}' href='about'>about</a>
+  <a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a>
   <a rel=prefetch class='{segment === "videos" ? "selected" : ""}' href='videos'>videos</a>
   <a rel=prefetch class='{segment === "projects" ? "selected" : ""}' href='projects'>projects</a>
   <a rel=prefetch class='{segment === "snacks" ? "selected" : ""}' href='snacks'>snacks</a>
-  <a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a>
+  <a rel=prefetch class='{segment === "talks" ? "selected" : ""}' href='talks'>talks</a>
 </nav>
