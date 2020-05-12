@@ -35,7 +35,7 @@
       <!--//media-body-->
       <img
         class="profile-image mb-3 mb-lg-0 ml-lg-5 mr-md-0"
-        src="assets/images/profile-lg.jpg"
+        src="me.jpg"
         alt="" />
     </div>
   </div>

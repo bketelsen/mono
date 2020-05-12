@@ -1,3 +1,17 @@
+<script context="module">
+
+  export function preload({ params, query }) {
+    return this.fetch(`blog.json`)
+      .then((r) => r.json())
+      .then((data) => {
+        const posts = data.slice(0,3);
+        return { posts };
+      });
+  }
+</script>
+
+
+
 <script>
   import Footer from "../components/Footer.svelte";
   import AboutMe from "../components/AboutMe.svelte";
@@ -5,6 +19,7 @@
   import Testimonials from "../components/Testimonials.svelte";
   import Featured from "../components/Featured.svelte";
   import LatestBlog from "../components/LatestBlog.svelte";
+  export let posts;
 </script>
 
 <style>
@@ -17,7 +32,7 @@
 
 <AboutMe />
 
-<WhatIDo />
+<LatestBlog {posts}/>
 <div class="container">
   <hr />
 </div>
@@ -25,13 +40,14 @@
 <div class="container">
   <hr />
 </div>
-
-<Featured />
-
+<WhatIDo />
 <div class="container">
   <hr />
 </div>
 
-<LatestBlog />
+
+<Featured />
+
+
 
 <Footer />

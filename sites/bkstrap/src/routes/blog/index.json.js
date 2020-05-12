@@ -9,5 +9,5 @@ export function get(req, res) {
   const sortedPosts = posts.sort((a,b) => new Date(b.date) - new Date(a.date));
 
 
-  res.end(JSON.stringify(posts));
+  res.end(JSON.stringify(sortedPosts));
 }
