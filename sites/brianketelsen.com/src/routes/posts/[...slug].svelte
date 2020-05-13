@@ -23,6 +23,7 @@
   import { getIsoDateStr } from "../../services/dates";
   import Share from "../../components/Share.svelte";
 
+  import Subscribe from "../../components/Subscribe.svelte";
   import HeaderImage from "../../components/HeaderImage.svelte";
 
   // TODO remove workaround for this issue https://github.com/sveltejs/sapper/issues/904
@@ -271,3 +272,4 @@
 <div class="content">
   {@html post.html}
 </div>
+<Subscribe />

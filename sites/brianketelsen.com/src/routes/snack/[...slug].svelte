@@ -22,6 +22,7 @@
   import { snackUrl } from "../../services/models";
   import { getIsoDateStr } from "../../services/dates";
   import Share from "../../components/Share.svelte";
+  import Subscribe from "../../components/Subscribe.svelte";
 
   import HeaderImage from "../../components/HeaderImage.svelte";
 
@@ -271,3 +272,4 @@
 <div class="content">
   {@html post.html}
 </div>
+<Subscribe />
