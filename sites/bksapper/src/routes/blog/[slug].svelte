@@ -16,6 +16,7 @@
 <script>
   import Bio from '../../components/Bio.svelte';
   import HeaderImage from '../../components/HeaderImage.svelte';
+  import Subscribe from '../../components/Subscribe.svelte';
   export let post
 </script>
 
@@ -57,7 +58,10 @@
 <HeaderImage image_url={post.image_url} image_credit={post.image_credit} />
 {/if}
     {@html post.html}
+
   </article>
   <hr />
   <Bio />
+
+  <Subscribe />
 </div>

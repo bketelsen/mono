@@ -15,6 +15,8 @@
 
 <script>
   import Bio from '../../components/Bio.svelte'
+
+  import Subscribe from '../../components/Subscribe.svelte';
   export let post
 </script>
 
@@ -55,4 +57,5 @@
   </article>
   <hr />
   <Bio />
+  <Subscribe />
 </div>

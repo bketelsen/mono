@@ -1,3 +1,5 @@
+<script>
+</script>
 <style>
   .home-container {
     align-items: center;
