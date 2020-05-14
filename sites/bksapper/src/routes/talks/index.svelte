@@ -34,7 +34,7 @@
 </svelte:head>
 
 <div class="container">
-  <h1>Snacks</h1>
+  <h1>Talks</h1>
   {#each talks as project , index}
     {#if index}
       <hr />
