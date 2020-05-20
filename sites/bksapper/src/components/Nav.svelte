@@ -6,7 +6,7 @@
   nav {
     font-family: Rubik, sans-serif;
     font-weight: 700;
-   /* justify-content: flex-end; */
+    /* justify-content: flex-end; */
     text-transform: uppercase;
     overflow: hidden;
   }
@@ -25,14 +25,14 @@
   }
 
   a::before {
-    content: '';
+    content: "";
     position: absolute;
-    transition: transform .3s ease;
+    transition: transform 0.3s ease;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: #AAA;
+    background: #aaa;
     transform: scaleX(0);
   }
 
@@ -42,32 +42,42 @@
   }
 
   .selected::before {
-    background: #6B87E8;
+    background: #6b87e8;
   }
 
- /* Style the topnav links */
-nav a {
-  float: left;
-  display: block;
- /* color: #f2f2f2; */
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-} 
-  @media screen and (max-width: 600px) {
+  /* Style the topnav links */
   nav a {
-    float: none;
-    width: 100%;
+    float: left;
+    display: block;
+    /* color: #f2f2f2; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
-}
+  @media screen and (max-width: 600px) {
+    nav a {
+      float: none;
+      width: 100%;
+    }
+  }
 </style>
 
 <nav>
-  <a class='{segment === undefined ? "selected" : ""}' href='.'>home</a>
-  <a class='{segment === "about" ? "selected" : ""}' href='about'>about</a>
-  <a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a>
-  <a rel=prefetch class='{segment === "videos" ? "selected" : ""}' href='videos'>videos</a>
-  <a rel=prefetch class='{segment === "projects" ? "selected" : ""}' href='projects'>projects</a>
-  <a rel=prefetch class='{segment === "snacks" ? "selected" : ""}' href='snacks'>snacks</a>
-  <a rel=prefetch class='{segment === "talks" ? "selected" : ""}' href='talks'>talks</a>
+  <a class={segment === undefined ? 'selected' : ''} href=".">home</a>
+  <a class={segment === 'about' ? 'selected' : ''} href="about">about</a>
+  <a rel="prefetch" class={segment === 'blog' ? 'selected' : ''} href="blog">
+    blog
+  </a>
+  <a
+    rel="prefetch"
+    class={segment === 'videos' ? 'selected' : ''}
+    href="videos">
+    videos
+  </a>
+  <a
+    rel="prefetch"
+    class={segment === 'projects' ? 'selected' : ''}
+    href="projects">
+    projects
+  </a>
 </nav>

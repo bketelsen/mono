@@ -1,11 +1,8 @@
 <script>
-
-
   export let segment;
 </script>
 
 <style>
-
   .bottomnav {
     font-family: Rubik, sans-serif;
     font-weight: 700;
@@ -24,14 +21,14 @@
   }
 
   a::before {
-    content: '';
+    content: "";
     position: absolute;
-    transition: transform .3s ease;
+    transition: transform 0.3s ease;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: #AAA;
+    background: #aaa;
     transform: scaleX(0);
   }
 
@@ -41,12 +38,21 @@
   }
 
   .selected::before {
-    background: #6B87E8;
+    background: #6b87e8;
   }
 </style>
 
 <div class="bottomnav">
-  <a rel=prefetch class='{segment === "snacks" ? "selected" : ""}' href='snacks'>snacks</a>
-  <a rel=prefetch class='{segment === "projects" ? "selected" : ""}' href='projects'>projects</a>
-  <a rel=prefetch class='{segment === "talks" ? "selected" : ""}' href='talks'>talks</a>
+  <a
+    rel="prefetch"
+    class={segment === 'snacks' ? 'selected' : ''}
+    href="snacks">
+    snacks
+  </a>
+  <a
+    rel="prefetch"
+    class={segment === 'projects' ? 'selected' : ''}
+    href="projects">
+    projects
+  </a>
 </div>
