@@ -19,6 +19,8 @@
   import Testimonials from "../components/Testimonials.svelte";
   import Featured from "../components/Featured.svelte";
   import LatestBlog from "../components/LatestBlog.svelte";
+  import CTA from '../components/CTA.svelte';
+  
   export let posts;
 </script>
 
@@ -31,7 +33,7 @@
 </svelte:head>
 
 <AboutMe />
-
+<CTA />
 <LatestBlog {posts}/>
 <div class="container">
   <hr />

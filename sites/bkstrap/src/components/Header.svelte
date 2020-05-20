@@ -1,10 +1,20 @@
 <script>
 
   export let segment;
+
+  export let collapse = true;
+  function toggleCollapse(){
+	  collapse = !collapse;
+  }
+
+	function navigate(event) {
+		console.log("Hash changed",event);
+	}
 </script>
 
 <style>
 </style>
+<svelte:window on:hashchange={navigate}/>
 
 	<header class="header text-center">	    
 		<div class="force-overflow">
@@ -12,13 +22,13 @@
 			
 			<nav class="navbar navbar-expand-lg navbar-dark" >
 				
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" on:click={toggleCollapse} data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				
-				<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div id="navigation" class="{collapse ? 'collapse' : ''} navbar-collapse flex-column" >
 					<div class="profile-section pt-3 pt-lg-0">
-						<img class="profile-image mb-3 rounded-circle mx-auto" src="brian.jpeg" alt="image" >			
+						<img class="profile-image mb-3 rounded-circle mx-auto" src="brian.jpeg" alt="It's me, Brian." >			
 						
 						<div class="bio mb-3">Hi, my name is Brian and I'm a senior software engineer. Welcome to my personal website!</div><!--//bio-->
 						<ul class="social-list list-inline py-2 mx-auto">
@@ -34,6 +44,10 @@
 						<li class="nav-item {segment === undefined ? 'active' : ''}">
 							<a class="nav-link" href="/"><i class="fas fa-user fa-fw mr-2"></i>Home<span class="sr-only">(current)</span></a>
 						</li>
+
+						<li class="nav-item {segment === 'about' ? 'active' : ''}">
+							<a class="nav-link" href="/about"><i class="fas fa-question-circle fa-fw mr-2"></i>About</a>
+						</li>
 						<li class="nav-item {segment === 'blog' ? 'active' : ''}">
 							<a class="nav-link" href="/blog"><i class="fas fa-blog fa-fw mr-2"></i>Blog</a>
 						</li>
@@ -48,17 +62,6 @@
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="contact.html"><i class="fas fa-envelope-open-text fa-fw mr-2"></i>Contact</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<i class="fas fa-cogs fa-fw mr-2"></i>More Pages
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="project.html">Project Page</a>
-								<a class="dropdown-item" href="blog-home.html">Blog Home 1</a>
-								<a class="dropdown-item" href="blog-home-alt.html">Blog Home 2</a>
-								<a class="dropdown-item" href="blog-post.html">Blog Post</a>
-							</div>
 						</li>
 					</ul>
 					
