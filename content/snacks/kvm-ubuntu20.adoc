@@ -1,0 +1,18 @@
+= Installing KVM on Ubuntu 20.04
+:date: 2020/05/27
+:draft: false 
+:keywords: Linux
+:description: Package List for Installing KVM On Ubuntu 20.04
+:slug: kvm-20-04
+
+Here's the package list required for installing KVM on Ubuntu 20.04.  It changed since 18.04, so I'm writing it down.
+
+== APT Packages
+
+* qemu-kvm 
+* libvirt-daemon-system 
+* libvirt-clients 
+* bridge-utils 
+* virtinst 
+* virt-viewer
+
