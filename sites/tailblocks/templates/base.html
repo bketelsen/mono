@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="my description"
+    />
+    <link rel="stylesheet" href="/tailwind.css">
+    <link rel="manifest" href="/manifest.json" />
+
+    <title>Brian Ketelsen</title>
+  </head>
+  <body>
+
+	{% include "includes/header.html" %}
+
+	{% block content %}{% endblock content %}
+	
+
+	{% include "includes/footer.html" %}
+  </body>
+</html>

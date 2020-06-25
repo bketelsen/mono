@@ -1,0 +1,16 @@
+{% extends "index.html" %}
+
+{% block title %}Brian Ketelsen :: {{ term.name }} category{% endblock %}
+
+{% block content %}
+  <ul class="search-results__items">
+    {% for page in term.pages %}
+      <li class="search-results__item"><a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    {% if page.description %}
+      <div class="search-results__teaser">
+        {{ page.description | safe }}
+      </div></li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+{% endblock content %}

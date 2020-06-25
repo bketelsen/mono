@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title%}
+Brian Ketelsen :: Snacks
+{% endblock title%}
+
+
+{% block content %}
+<section class="text-gray-700 body-font">
+	<div class="container px-5 py-24 mx-auto">
+		<div class="flex flex-wrap -mx-4 -my-8">
+			{% for page in section.pages %}
+
+			<div class="py-8 px-4 lg:w-1/3">
+				<div class="h-full flex items-start">
+					<div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+						<span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-300">Jul</span>
+						<span class="font-medium text-xl text-gray-800 title-font">18</span>
+					</div>
+					<div class="flex-grow pl-6">
+						{% if page.taxonomies.categories %}
+						{% for category in page.taxonomies.categories %}
+						<span
+							class="inline-block py-1 px-3 rounded bg-indigo-100 text-indigo-500 text-sm font-medium tracking-widest">
+							<a
+								href="{{ get_taxonomy_url(kind="categories", name=category) }}">{{ category | upper }}</a>
+						</span>
+						{% endfor %}
+						{% endif %}
+						<h1 class="title-font text-xl font-medium text-gray-900 mb-3"><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h1>
+						<p class="leading-relaxed mb-5">{{ page.summary | safe }}</p>
+
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+
+		</div>
+	</div>
+</section>
+
+{% endblock content %}

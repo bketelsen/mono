@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title%}
+Brian Ketelsen :: {{ page.title}}
+{% endblock title%}
+
+
+{% block content %}
+<article class="text-gray-700 body-font">
+  <div class="container px-5 py-24 mx-auto flex flex-col">
+    <div class="text-center mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">{{ page.title }}</h1>
+      <div class="flex mt-6 justify-center">
+        <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+      </div>
+    </div>
+    <div class="lg:w-4/6 mx-auto">
+
+
+      <div class="markdown">
+            {{ page.content | safe }}
+      </div>
+    </div>
+  </div>
+</article>
+
+
+{% endblock content %}

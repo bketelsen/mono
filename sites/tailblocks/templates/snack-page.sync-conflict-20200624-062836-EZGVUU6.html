@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title%}
+Brian Ketelsen :: {{ page.title}}
+{% endblock title%}
+
+
+{% block content %}
+<article class="blog-post px-3 py-5 p-md-5">
+  <div class="container single-col-max-width">
+    <header class="blog-post-header">
+      <h2 class="title mb-2">{{ page.title }}</h2>
+      <div class="meta mb-3"><span class="date">Published {{ page.date | date(format="%d %B %Y") }}</span><span
+          class="time">5 min read</span></div>
+    </header>
+
+    <div class="blog-post-body">
+
+      {{ page.content | safe }}
+
+    </div>
+    <nav class="blog-nav nav nav-justified my-5">
+      {% if page.earlier %}
+      <a class="nav-link-prev nav-item nav-link rounded-left" href="{{get_url(path=page.earlier.path)}}">Earlier<i
+          class="arrow-prev fas fa-long-arrow-alt-left"></i></a>
+      {% endif %}
+      {% if page.later%}
+      <a class="nav-link-next nav-item nav-link rounded-right" href="{{get_url(path=page.later.path)}}">Later<i
+          class="arrow-next fas fa-long-arrow-alt-right"></i></a>
+      {% endif %}
+    </nav>
+
+
+
+  </div>
+  <!--//container-->
+</article>
+
+{% endblock content %}
