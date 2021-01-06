@@ -10,7 +10,7 @@
     "@asciidoctor/core": "^2.2.0",
     "@asciidoctor/reveal.js": "^4.0.1",
     "asciidoctor": "^2.2.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "copy-dir": "^1.2.0",
     "csv-parser": "^2.3.2",
     "dotenv": "^8.2.0",
